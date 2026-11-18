@@ -1,0 +1,21 @@
+{
+  "use": "development only; policy-selected recorded first actions",
+  "layouts": 211,
+  "episodes": 844,
+  "legal_first_action_traces_before_deduplication": 3687,
+  "illegal_first_action_traces_excluded": 744,
+  "distinct_episode_action_rows": 1668,
+  "episodes_by_number_of_distinct_observed_first_actions": {
+    "1": 235,
+    "2": 394,
+    "3": 215
+  },
+  "distinct_images": 1404,
+  "distinct_observed_history_and_action_signatures": 1210,
+  "identical_observed_history_and_action_signatures_with_both_outcomes": 333,
+  "sha256": {
+    "inputs.jsonl": "182724cc734dd5b8e29b7fb27c16f8bb8047106e9ebb94017689c85384e48eaf",
+    "targets.jsonl": "9571650f13c00717a2de443034dc1f695abc03a01e2444b089688757c97ac902",
+    "provenance.jsonl": "256c8775cfa7ca510c5064b9f69d0ace0b41a3a6d42d48298f1a5a506952107a"
+  }
+}

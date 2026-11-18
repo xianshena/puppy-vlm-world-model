@@ -1,0 +1,102 @@
+{
+  "scope": "observed completed run, not settings for future training",
+  "model_files": {
+    "Qwen3VL-8B-Instruct-Q4_K_M.gguf": {
+      "bytes": 5027784800,
+      "sha256": "67d1659bfe71b89d50b45a4ad1a9e5b997e5bb16ce5da66a6a6167abd569e9e2"
+    },
+    "mmproj-Qwen3VL-8B-Instruct-Q8_0.gguf": {
+      "bytes": 752289728,
+      "sha256": "c6ba85508d82f42590e6eb77d5340369ab6fecf107a7561d809523d8aa5f3bfd"
+    }
+  },
+  "backend_image_digest": "sha256:5043ecdcce3f1a4cc55f8a3c39ceeb400abb1c04a350184722649603922051e7",
+  "engine": "llama-server",
+  "context_tokens": 8192,
+  "image_tokens_min_max": [
+    256,
+    256
+  ],
+  "slots": 1,
+  "temperature": 0,
+  "request_seed": 17,
+  "action_token_limit": 12,
+  "observation_token_limit": 8,
+  "memory_writer_token_limit": 76,
+  "room_view_pixels": [
+    384,
+    256
+  ],
+  "formal_layouts": {
+    "first": 1000,
+    "last_inclusive": 1210
+  },
+  "excluded_pilot_layouts": [
+    0,
+    1
+  ],
+  "variants_and_policies": [
+    [
+      "stay",
+      [
+        "current",
+        "recent",
+        "keyframes",
+        "records",
+        "full_history",
+        "single_action_compaction"
+      ]
+    ],
+    [
+      "seen",
+      [
+        "current",
+        "recent",
+        "keyframes",
+        "records",
+        "full_history",
+        "single_action_compaction"
+      ]
+    ],
+    [
+      "unseen",
+      [
+        "current",
+        "recent",
+        "keyframes",
+        "records",
+        "full_history",
+        "single_action_compaction"
+      ]
+    ],
+    [
+      "counterfactual",
+      [
+        "records",
+        "full_history",
+        "single_action_compaction"
+      ]
+    ]
+  ],
+  "visited_frames_before_first_action": 12,
+  "max_inspections": 3,
+  "action_letters": [
+    "A",
+    "B",
+    "C"
+  ],
+  "hallway": "H",
+  "on_parse_failure": "end episode immediately",
+  "prompts": {
+    "PROMPT": "You navigate a virtual room. Goal: find a real BLUE ball. A table, B sofa, C cabinet. Choose a location to inspect, using your supplied memory and current view. If a previously searched location had no blue ball, try another. Your answer must be exactly one letter A, B, or C. Never return prose.",
+    "WRITER": "Update a tiny memory for an agent that will continue in a fresh context. Keep only the last directly seen location/time of the blue ball, locations checked and empty, and uncertainty when needed. Use the new observation, preserve correct previous facts, and never guess a sighting. Output at most 45 words, plain text.",
+    "FALLBACK": "No reliable observations recorded."
+  },
+  "source_sha256": {
+    "experiment.py": "81f921ecbfc300b574d3bc363b58b26d33c8a6f6ac6754630df69bab73917a71",
+    "world.py": "062050b0465fafc7bcd08d197ac633eda7398c527ac84637ff3d4ecace6a7cf5",
+    "run.py": "f33928c9cc6987bd18a247a8a89b2a892ad21b7b0628df8d415d6b7e9ca367b7",
+    "plan.json": "00a89440d4fcd17cd62d0c2fe27a61d89440e78340c8f0161b916db0195a11b2",
+    "manifest.json": "55be547cd2e5dac871109a25902b03a8026a91e6ceef09efa5dbe4010859e09a"
+  }
+}
