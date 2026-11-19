@@ -1,0 +1,22 @@
+{
+  "cases": 48,
+  "per_mode_mean_images_per_second": {
+    "1": 0.7112176227670515,
+    "2": 0.8172256600346408
+  },
+  "parsed_outputs_identical": true,
+  "used_lanes": 2,
+  "passed_visible_gate": true,
+  "correct_by_field": {
+    "location": 46,
+    "floor": 48,
+    "held": 48,
+    "feedback": 48
+  },
+  "positive_recall": [
+    1.0,
+    1.0
+  ],
+  "vision_recipe_sha": "f730371025bd5278d202b490bf411e8ae10959dae944541f4412129085966ea2",
+  "perception_backend_sha": "891c2f3e554f2920930a196c15ab6262bba2b198bb150355680cfc5b987e0ceb"
+}

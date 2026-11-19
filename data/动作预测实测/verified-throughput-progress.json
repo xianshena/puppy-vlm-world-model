@@ -1,0 +1,4750 @@
+{
+  "cases": [
+    {
+      "frame": "4c519a46ffda6f7070fa49f0d27d3492b306e85f9e33ecdcd7410c2124b9d754",
+      "truth": [
+        "A",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "94cfac9b21dc1b2093b1a0af94d18c5e91d303ca4c8ff9a5364cd6758fafacbb",
+      "truth": [
+        "B",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "4a7c9c1bdb9427dfa89ac98ea28377fee733da839ff3613f3cc72950b89f7f79",
+      "truth": [
+        "B",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "65825f796b799ff4e7c7d43355025ede28374ce383031cf2da6a3bd1984f0652",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "a26978f6fe6c230588391b4277b699cb8a5e3a3dc115f6e457b941340677a48f",
+      "truth": [
+        "B",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "f09a35e2963146f06b8831d2f9dac47f9393491ac09489c2a3f282fcd660ca5d",
+      "truth": [
+        "C",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "22b319a2e0d84080ed81dbb8d7a347089d3c8660eb611736c5c8809564055a47",
+      "truth": [
+        "C",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "5b5043433be27fbcdb99be08cb825768e0cdd98e6d49096ce3c45ea821b5eeae",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "f89f456eaa92441424a9c1dd26040edb2a4c945d095cefdebcfd7e6b24e662b2",
+      "truth": [
+        "C",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "15ef1d929373e3ef551a5fa90fd26e0affe8e01b6f8bd456e7a697ca09a793f3",
+      "truth": [
+        "A",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "070445ac191c4f2eb66f9c6d98a8b6309f73a42f1d4d8e1d16f87e7dec25c347",
+      "truth": [
+        "A",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "77af1117dc422b0b44ee9e13aecda909b1b854d0ca5c5e1c7153b799e3b5d029",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "e765f15e1ef839c33265a9046e34aba16b4d45b7cfc0a2fc753748a5a5794fa8",
+      "truth": [
+        "A",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "6788bc151c5639fb9a624d763f751e36247a42dbd96d737ef81967ab24815c0c",
+      "truth": [
+        "B",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "4b474a34c927bf072224537324d38808a5a195a736dfa41f55fd70ac2c6b9489",
+      "truth": [
+        "B",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "3cfa8753f19a565c5961fda644af480208d4228d1e8f77217d993602ed912d75",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "73c76b8978db80c4606b92f7b541d7dc1346e463aba99014155b82a7e91cd3ff",
+      "truth": [
+        "B",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "0dff7849060e241e511298d57e129e9ddb1672a1ee32a3790047695e816625c6",
+      "truth": [
+        "C",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "396a5160100e16b0956fe8c9440acf8e0802f59bd2f1eec93994aa4421dc9b3e",
+      "truth": [
+        "C",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "989ad0568793518b1516b24a9be96187d1760d96d5e0e48ad2dfe7b6545e481f",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "a2f46a47e3a43cb45e08e6b85dc30d27ddc292fc197a0bfee1a563c7e4694887",
+      "truth": [
+        "C",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "aa363af2f654b4bc7120a4f3a990b56824efda18b00651c556402d43e0dea8fb",
+      "truth": [
+        "A",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "1de2b256ea4554b4376bb678ce27d222447afd35301b512f6ab18e5f88c4df93",
+      "truth": [
+        "A",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "81c2a270f18fdcd03f38414b7a6c10aeae53b2cf2421482bb4a74ba1848840f2",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "ee7a96ef5859694ace4912e9a9c14a739b4c10d51119bfaa5f03a3db144cdb86",
+      "truth": [
+        "A",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "d8c5000fe4ef707135d7a0131ce76d0f57ebcb52159e42dc61f7915140a900e9",
+      "truth": [
+        "B",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "fbfdb082c8ca7d70e29463175609847eb18977fc27d3d2535d05a926fb8178ee",
+      "truth": [
+        "B",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "76256ee8fb1b6d0771fa91827bb74020f52c261b99e71386eadb9bb6f7ab5e62",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "f2a13fc431cc13ef61678d043cb5a855ec6d14a966cdf05eec8b7a047522006b",
+      "truth": [
+        "B",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "bf09a7ade228f3b6aa837dcba334b07395e6f4e0343885ea30a8d83ecb8d8309",
+      "truth": [
+        "C",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "16fc272c29c5fe768f2a34cadad5db2f28654736b008bf6cdc0193d192ffbbc2",
+      "truth": [
+        "C",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "8dba726a5d00064398293da0f081c1fe86cbc027c73ec1b430930cdd23233a1d",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "d5b1a72e60c78a41d7187034dcc630004e9c1b54f5cd607bd7530629652ede17",
+      "truth": [
+        "C",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "d719afee57905b5e9ead1f250b36f093a6f0280a6b67464409ce1324c2e8b2ca",
+      "truth": [
+        "A",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "8e9b74ff475263b32096c43cf93eb28eda015a4c1a3cf2622e7f15503a64d8e5",
+      "truth": [
+        "A",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "816396273225da9c67083f49ecffaad12be6d6bafa6193f8fe32fe735a0e696a",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "1a9a99eab23da3efb62c13227d09ffb978ab411f196972902c95ede18dc3b26c",
+      "truth": [
+        "A",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "c3b7fafeb59e28c4ae5164ab72bf0d45e8da344a47c40ffc476d548bd541701b",
+      "truth": [
+        "B",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "0a3cc019c9b97e35c8add82189f60cb279d566232a6aa83213e8ad2928cf0b8b",
+      "truth": [
+        "B",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "6fed671501c17e34bbe6a4f924cbeba4ec34bc447931f7c705609786115b7325",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "da925afd487f6dbfcce1112c9bcaa7a1868857c9d84fb9534e62eb5e40ddd029",
+      "truth": [
+        "B",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "f9e1fb5f77983da1069ce70e81bbeb9e53d1a031f787e67141b657c250b614a7",
+      "truth": [
+        "C",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "caa4bf4084de0780e28fb61ca7120f1b93561ff91952523e4b549f46dff0f6c3",
+      "truth": [
+        "C",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "e49d6a10bb2e77965411fbe47cb618266049e46bdd44bb14268c1928e2ce9390",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "0217154193e73818e5130c98263f025b0bbd0a96924149241145a7d824bd47f6",
+      "truth": [
+        "C",
+        "Y",
+        "N",
+        "X"
+      ]
+    },
+    {
+      "frame": "53ac214cd660d9d0d1815ae684e0d280bb10799bdc1a03b23d618e1279f1ca54",
+      "truth": [
+        "A",
+        "N",
+        "N",
+        "F"
+      ]
+    },
+    {
+      "frame": "72bbf494be9806329dc9db056d6dd4790707961c4867e280beea75d608a8e415",
+      "truth": [
+        "A",
+        "N",
+        "Y",
+        "S"
+      ]
+    },
+    {
+      "frame": "3035efa980b63229f297215b95e36f2624a190a40c1312b887e2601857268e44",
+      "truth": [
+        "H",
+        "N",
+        "N",
+        "X"
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "lanes": 1,
+      "images_per_second": 0.7148466514883132,
+      "seconds": 67.14726843871176,
+      "correct": [
+        46,
+        48,
+        48,
+        48
+      ],
+      "positive_recall": [
+        1.0,
+        1.0
+      ],
+      "results": [
+        {
+          "frame": "4c519a46ffda6f7070fa49f0d27d3492b306e85f9e33ecdcd7410c2124b9d754",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:d90e15e51c748baf2e4ec560b56f33a27ed6e5e56bd97bcaa550579f2b20587b",
+            "ball:681a58ddcea823bcf6f67fe2f443b6c569b2f37b2544737df8345d6cb3b056a3"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            true,
+            true
+          ],
+          "seconds": 0.007496737875044346
+        },
+        {
+          "frame": "94cfac9b21dc1b2093b1a0af94d18c5e91d303ca4c8ff9a5364cd6758fafacbb",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:16ad846b04f3faa2ff19ee1b42cd2a317670776fbd7d439e36069a07c26a1e7b",
+            "ball:4a96fff4dc61262ca2d690d5d4475fe57a66fbaf557ffdc0d89bd10bdd94ab11"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7134830649010837
+        },
+        {
+          "frame": "4a7c9c1bdb9427dfa89ac98ea28377fee733da839ff3613f3cc72950b89f7f79",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:16ad846b04f3faa2ff19ee1b42cd2a317670776fbd7d439e36069a07c26a1e7b",
+            "ball:bd66b23ccf287b973ead096ad701ff70cc3f75957e1058cfbcba66701d9166d1"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9225176679901779
+        },
+        {
+          "frame": "65825f796b799ff4e7c7d43355025ede28374ce383031cf2da6a3bd1984f0652",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:99ccc23d384538c0ab8d09da4838d78ccfe0f22d8af78a44ee0a7cab7e1566ab",
+            "ball:64bcd3d20c3394fef09bc01d3927a0b55163ae2a602a6b48c95dca0202d03e9f"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7349736131727695
+        },
+        {
+          "frame": "a26978f6fe6c230588391b4277b699cb8a5e3a3dc115f6e457b941340677a48f",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:5fd980279ab7a6705fb3f60a85a6c45f40639a371dcd6037e29421a20e3c7a82",
+            "ball:86ab130f3266333f15bd3a9a7c5353b174032c945a740e027dfe13e003fc65ba"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.753822520840913
+        },
+        {
+          "frame": "f09a35e2963146f06b8831d2f9dac47f9393491ac09489c2a3f282fcd660ca5d",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:80b543d677689c8ffd30b6eb1a5f371da03aecc79037ca37b98f0bdc7aef828c",
+            "ball:3b4ce13507168d23323fc75fd4f6a2ce715d27a10fba9328d6b0af158fdf3303"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.759205467067659
+        },
+        {
+          "frame": "22b319a2e0d84080ed81dbb8d7a347089d3c8660eb611736c5c8809564055a47",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:80b543d677689c8ffd30b6eb1a5f371da03aecc79037ca37b98f0bdc7aef828c",
+            "ball:9a396c667b601d5672db964329cb8b231bd487a435de97244a094d5d5c29aefa"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9104287470690906
+        },
+        {
+          "frame": "5b5043433be27fbcdb99be08cb825768e0cdd98e6d49096ce3c45ea821b5eeae",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:80971b28e44ca6b9deb64bbb68db98d9d1d7b004b6534966a0adf633843b927f",
+            "ball:1d81f009f8c99b344b8029160d909909b9e63833cac9cfdbc63ad056131a92fb"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7268237490206957
+        },
+        {
+          "frame": "f89f456eaa92441424a9c1dd26040edb2a4c945d095cefdebcfd7e6b24e662b2",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:ef36d34c27901ce35fef997c6aebb38577f7feacfcb408eb09ce58a8e066413d",
+            "ball:d307aa75277520138032436d35d3d700d7fa5a591650a5b95fca83f1de2461ab"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7327173501253128
+        },
+        {
+          "frame": "15ef1d929373e3ef551a5fa90fd26e0affe8e01b6f8bd456e7a697ca09a793f3",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:759c17c24f25aca5ebc7d27272d197dc029db068571906d51d4346c22c7667ca",
+            "ball:36c4eb74a4bd28327ce94398969f4e8eb864b74afe9021541d2dd9bd47a5c6a5"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7445590747520328
+        },
+        {
+          "frame": "070445ac191c4f2eb66f9c6d98a8b6309f73a42f1d4d8e1d16f87e7dec25c347",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:759c17c24f25aca5ebc7d27272d197dc029db068571906d51d4346c22c7667ca",
+            "ball:4fdbc9c5d211b58a6e790072253eb41560f8a1f6967fcf5f6eb9cc8dc7be57fc"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9090100219473243
+        },
+        {
+          "frame": "77af1117dc422b0b44ee9e13aecda909b1b854d0ca5c5e1c7153b799e3b5d029",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:67d0eb4743f6109f590b5b1e8d553986d9657ba424e913d1230fe84c49dbb61b",
+            "ball:ac66112d9c1bd5ad240342cbd0d2a4b095c79f2e5f398a201da0e26a3ba41ef4"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.749155837111175
+        },
+        {
+          "frame": "e765f15e1ef839c33265a9046e34aba16b4d45b7cfc0a2fc753748a5a5794fa8",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:c0e59e0d93b564d73c1a8fc15ccfd2dbcca0f2e25d0d4dd378bf2feefb94bdeb",
+            "ball:46822db7afc6302f66cab81b06f09d0a9dcf728aa8d3815c7e1859fb2149ef28"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7489667818881571
+        },
+        {
+          "frame": "6788bc151c5639fb9a624d763f751e36247a42dbd96d737ef81967ab24815c0c",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:adf5f9273e5a440b024895e37e1532a3f4d1734c19e53a32a0b000e1d9c3f546",
+            "ball:f3a07fc6d5326e2e3fedc2a2c4243d403a09768c4b159e57d125dfb1fd025139"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7451661629602313
+        },
+        {
+          "frame": "4b474a34c927bf072224537324d38808a5a195a736dfa41f55fd70ac2c6b9489",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:adf5f9273e5a440b024895e37e1532a3f4d1734c19e53a32a0b000e1d9c3f546",
+            "ball:7fab2b93decaa16869ff8d3ed7622306cae5bf09d0f864e67d1ce45f91fc748a"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9086932549253106
+        },
+        {
+          "frame": "3cfa8753f19a565c5961fda644af480208d4228d1e8f77217d993602ed912d75",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:63fd4122ec0af3037417315bdeae527bdfafa1fe2b5596a4e5a329976ea842c3",
+            "ball:abf8fa2554c792fcee98084bd5522e60d311e8e117837cf979e878729982634a"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7422247249633074
+        },
+        {
+          "frame": "73c76b8978db80c4606b92f7b541d7dc1346e463aba99014155b82a7e91cd3ff",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:96f8ef0304d2f16445e6dd5dc5db8678d2215262e08d0ef8892dda67b6ab4d5e",
+            "ball:375c1a518c5e1cc74100c6228c4802a7ef40b686fd28de29d5893b791907ae13"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7442790637724102
+        },
+        {
+          "frame": "0dff7849060e241e511298d57e129e9ddb1672a1ee32a3790047695e816625c6",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:ef5db87582e255108461c94e2bd53e44c5ec9ddd5320d15809cf1284791d2631",
+            "ball:99f0d1d38834667d6b4f3ebb89b8e3386ca0b648bcc7042e8005ae5b10140799"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7432091850787401
+        },
+        {
+          "frame": "396a5160100e16b0956fe8c9440acf8e0802f59bd2f1eec93994aa4421dc9b3e",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:ef5db87582e255108461c94e2bd53e44c5ec9ddd5320d15809cf1284791d2631",
+            "ball:b23872ccbd8a8b62f34ef29b07123c842a04e545c4261aa39ad715cae68f10eb"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9099502987228334
+        },
+        {
+          "frame": "989ad0568793518b1516b24a9be96187d1760d96d5e0e48ad2dfe7b6545e481f",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0622fe83b4b6ff3a7f31b897b1dca529833b12df319622024eee796adf9fcb48",
+            "ball:2d52e74140a98537b9380ffcd37fddd4291a68d245f13d6b9a3a17612a083131"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7443069820292294
+        },
+        {
+          "frame": "a2f46a47e3a43cb45e08e6b85dc30d27ddc292fc197a0bfee1a563c7e4694887",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:aad366792975c0474fc5bd59ff18a8a5a2c5334d0b7a286656400ea2d193def2",
+            "ball:938ed1a3fe3ef9475b1901d8f60038dd416716e09231b44918fecaf9ff98c66d"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7444617142900825
+        },
+        {
+          "frame": "aa363af2f654b4bc7120a4f3a990b56824efda18b00651c556402d43e0dea8fb",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:001edfc01d6a8d9eca113c9885e0a481113ecf8301b7752a3d22ffe7f25be70c",
+            "ball:e99f68939a201228ae2057fe25c2b95b560183317177ff917f09b2f4746ed288"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7419745195657015
+        },
+        {
+          "frame": "1de2b256ea4554b4376bb678ce27d222447afd35301b512f6ab18e5f88c4df93",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:001edfc01d6a8d9eca113c9885e0a481113ecf8301b7752a3d22ffe7f25be70c",
+            "ball:7e976aa7c07dfc77c6019c2382508888d7ad68d152ff1b8081c2c4cd6fd2cb83"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9097407232038677
+        },
+        {
+          "frame": "81c2a270f18fdcd03f38414b7a6c10aeae53b2cf2421482bb4a74ba1848840f2",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:84c4e2d385299ae7ec50089172523d27ee38d7565c0b8a1dc1322e1973aaac7c",
+            "ball:f63732f25a7609a89fcb42bd963d2eb5a23969602db5c5bb226ab21e2d21bf23"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7420183820649981
+        },
+        {
+          "frame": "ee7a96ef5859694ace4912e9a9c14a739b4c10d51119bfaa5f03a3db144cdb86",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:7ac5e5def1cbabe6ee11e82c0ad70273d697ac97f1dcc0f0557952a069597568",
+            "ball:e342548947e9180fd8e13123fb9dabf8eb92cd4938e3f499b10ec77fe5c80315"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7431937530636787
+        },
+        {
+          "frame": "d8c5000fe4ef707135d7a0131ce76d0f57ebcb52159e42dc61f7915140a900e9",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:5efc43eabfac35a6530405a0306a25352a628431490b503b22aed47c380bc406",
+            "ball:09021a2155afcb12fe9d274ddea12008bc77079e506fd416972bb9ea25ae1202"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7900229478254914
+        },
+        {
+          "frame": "fbfdb082c8ca7d70e29463175609847eb18977fc27d3d2535d05a926fb8178ee",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:5efc43eabfac35a6530405a0306a25352a628431490b503b22aed47c380bc406",
+            "ball:9d1023515a1029a3a448c84cb2ca451c0c80d735e9ef3a7b898a51d13cd2686e"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9068025187589228
+        },
+        {
+          "frame": "76256ee8fb1b6d0771fa91827bb74020f52c261b99e71386eadb9bb6f7ab5e62",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:7b899c5f5b3f96194e16a5c7dc5a62d45432139d43c6b201a9a68d3e8615f00f",
+            "ball:36c4eb74a4bd28327ce94398969f4e8eb864b74afe9021541d2dd9bd47a5c6a5"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.8940686988644302
+        },
+        {
+          "frame": "f2a13fc431cc13ef61678d043cb5a855ec6d14a966cdf05eec8b7a047522006b",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:b4c4577fb5bd2446e3667db6914c4e05a65cd645857fdc3523351d605a1e2ea8",
+            "ball:0462c630040de5eaa4f324288da2c60a0d3dcebb122ceb3b9f2d4b655befeff5"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7469634129665792
+        },
+        {
+          "frame": "bf09a7ade228f3b6aa837dcba334b07395e6f4e0343885ea30a8d83ecb8d8309",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:1005658218e90d277b1b8be04d6f3648854455bf9039f93b2404e9addadfda3b",
+            "ball:99f0d1d38834667d6b4f3ebb89b8e3386ca0b648bcc7042e8005ae5b10140799"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.8956545479595661
+        },
+        {
+          "frame": "16fc272c29c5fe768f2a34cadad5db2f28654736b008bf6cdc0193d192ffbbc2",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:1005658218e90d277b1b8be04d6f3648854455bf9039f93b2404e9addadfda3b",
+            "ball:b23872ccbd8a8b62f34ef29b07123c842a04e545c4261aa39ad715cae68f10eb"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            true
+          ],
+          "seconds": 0.009153246879577637
+        },
+        {
+          "frame": "8dba726a5d00064398293da0f081c1fe86cbc027c73ec1b430930cdd23233a1d",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:2a715d3ed80f7d10676731bde9ca9b6eb40df1d0ea8b66bde07e0ee0a7316f78",
+            "ball:e99f68939a201228ae2057fe25c2b95b560183317177ff917f09b2f4746ed288"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.8953214529901743
+        },
+        {
+          "frame": "d5b1a72e60c78a41d7187034dcc630004e9c1b54f5cd607bd7530629652ede17",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0038e18785f17bb0ce4a011f0457d39641e859f9d6e1e1772ca905ea09e05dc3",
+            "ball:43b57f8d59d59ad12ef83fc35a93927c42b83ab3a7765059222ea6432b5f13ec"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7426283829845488
+        },
+        {
+          "frame": "d719afee57905b5e9ead1f250b36f093a6f0280a6b67464409ce1324c2e8b2ca",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:b764400daf5e09bb149759c8efa3341bda889b2bc08444331a0600f960087301",
+            "ball:0edc744d224e4de85e10d87f096542d1ca9d4579eee2469ad0387a74c78a6aed"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.795977059751749
+        },
+        {
+          "frame": "8e9b74ff475263b32096c43cf93eb28eda015a4c1a3cf2622e7f15503a64d8e5",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:b764400daf5e09bb149759c8efa3341bda889b2bc08444331a0600f960087301",
+            "ball:89bcf7aa4caca1d7e250e9f0405d925c06e86a7227487c188e57b1803fda56a2"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9045058507472277
+        },
+        {
+          "frame": "816396273225da9c67083f49ecffaad12be6d6bafa6193f8fe32fe735a0e696a",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:20a456e09481541452a6cf01be7a2c9baec78e222cbb792c0a73e0ee0df1260e",
+            "ball:d64924805b35cfcb8e7bee5da75df1dcd3e6771eae24839df156189c0b2292ac"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7419215342961252
+        },
+        {
+          "frame": "1a9a99eab23da3efb62c13227d09ffb978ab411f196972902c95ede18dc3b26c",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:70380681d1b220766061f5afc7432d8ddcf4d46aa042d46695af2395b78f9f81",
+            "ball:17cc73c9e780a31ce6778e4f20de53018d2a246a884f75a2b52311f32771e581"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7433911003172398
+        },
+        {
+          "frame": "c3b7fafeb59e28c4ae5164ab72bf0d45e8da344a47c40ffc476d548bd541701b",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:fae4a9f2d47b133c73febd06f0723a72230fd500c42ca71d7d88a3d5a0b04326",
+            "ball:0dad7573bdd1a02adffd6821a09fd92280bd45c1ed6b8a8fda69b466a912392d"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7419232297688723
+        },
+        {
+          "frame": "0a3cc019c9b97e35c8add82189f60cb279d566232a6aa83213e8ad2928cf0b8b",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:fae4a9f2d47b133c73febd06f0723a72230fd500c42ca71d7d88a3d5a0b04326",
+            "ball:cdc36528ac8557600338f3df7d736ecea596a1e0ad57290d96bbab71c52932cf"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9087118566967547
+        },
+        {
+          "frame": "6fed671501c17e34bbe6a4f924cbeba4ec34bc447931f7c705609786115b7325",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0ed0499ce6b34b68ad8c5bad51e019fdc4fd25be46a67e9fe88cde0b390c6666",
+            "ball:64bcd3d20c3394fef09bc01d3927a0b55163ae2a602a6b48c95dca0202d03e9f"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.8878667512908578
+        },
+        {
+          "frame": "da925afd487f6dbfcce1112c9bcaa7a1868857c9d84fb9534e62eb5e40ddd029",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:741378b917cc028dcfc50fe386499a49f40962a8a2235abb3dc008c43fddfea0",
+            "ball:075d480bbcc107deef1465428cd404e42d136af93c0900b6872adea603f31c2a"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7428515017963946
+        },
+        {
+          "frame": "f9e1fb5f77983da1069ce70e81bbeb9e53d1a031f787e67141b657c250b614a7",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:4d30ce3235dbd7d0adc7d3694593b6557e726a913d31d8459f740d8c8eb616e1",
+            "ball:d28a6db19dcf45b28f602c0ad8cec3c585cf3f0372c9e028980338e8f8ad7939"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7418652172200382
+        },
+        {
+          "frame": "caa4bf4084de0780e28fb61ca7120f1b93561ff91952523e4b549f46dff0f6c3",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:4d30ce3235dbd7d0adc7d3694593b6557e726a913d31d8459f740d8c8eb616e1",
+            "ball:e4eadfda516dbc9df3d2a8d0e5416cf88ead89926503d19d2897fdedb4feb9a3"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9085273486562073
+        },
+        {
+          "frame": "e49d6a10bb2e77965411fbe47cb618266049e46bdd44bb14268c1928e2ce9390",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:4046ea116a8a643c2d079e9ed4243e07c761a27508824cd0481aa7e4e3088842",
+            "ball:2d52e74140a98537b9380ffcd37fddd4291a68d245f13d6b9a3a17612a083131"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.8927671210840344
+        },
+        {
+          "frame": "0217154193e73818e5130c98263f025b0bbd0a96924149241145a7d824bd47f6",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:6ac2d7d5b128f0525e413a6935bb7ddf524f40617b66ff8483f1f8a4dc866168",
+            "ball:72be9a7516c8add4f5976f7c3cc249f15afc54505620cd5492385584aac2459a"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7470617983490229
+        },
+        {
+          "frame": "53ac214cd660d9d0d1815ae684e0d280bb10799bdc1a03b23d618e1279f1ca54",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:b0cafba29b0dc792ff1e4090921de0d3ae46ac0de8d5e573cd2d65e35e181f6d",
+            "ball:ac66112d9c1bd5ad240342cbd0d2a4b095c79f2e5f398a201da0e26a3ba41ef4"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.8961363877169788
+        },
+        {
+          "frame": "72bbf494be9806329dc9db056d6dd4790707961c4867e280beea75d608a8e415",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:b0cafba29b0dc792ff1e4090921de0d3ae46ac0de8d5e573cd2d65e35e181f6d",
+            "ball:5a42e32497e64b2c40831539bbd5b1f2e81024d5ea583db32a8ff83650f8fee2"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9135917681269348
+        },
+        {
+          "frame": "3035efa980b63229f297215b95e36f2624a190a40c1312b887e2601857268e44",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:a7ae2b353f87af6a4703edb75468c3e8f061e8bb6373aae8a5ff222f7ab103e4",
+            "ball:59e75b77f16a065d485e226cc941322facf5f1e69b85390321989b4bb0884acc"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7422261983156204
+        }
+      ],
+      "mean_head_seconds_excluding_cache": {
+        "place": 0.8939948779944744,
+        "ball": 0.8646470944442581
+      },
+      "p50_latency": 1.7418933757580817
+    },
+    {
+      "lanes": 2,
+      "images_per_second": 0.8188444055676007,
+      "seconds": 58.61919514089823,
+      "correct": [
+        46,
+        48,
+        48,
+        48
+      ],
+      "positive_recall": [
+        1.0,
+        1.0
+      ],
+      "results": [
+        {
+          "frame": "4c519a46ffda6f7070fa49f0d27d3492b306e85f9e33ecdcd7410c2124b9d754",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:d90e15e51c748baf2e4ec560b56f33a27ed6e5e56bd97bcaa550579f2b20587b",
+            "ball:681a58ddcea823bcf6f67fe2f443b6c569b2f37b2544737df8345d6cb3b056a3"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            true,
+            true
+          ],
+          "seconds": 0.011746061965823174
+        },
+        {
+          "frame": "94cfac9b21dc1b2093b1a0af94d18c5e91d303ca4c8ff9a5364cd6758fafacbb",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:16ad846b04f3faa2ff19ee1b42cd2a317670776fbd7d439e36069a07c26a1e7b",
+            "ball:4a96fff4dc61262ca2d690d5d4475fe57a66fbaf557ffdc0d89bd10bdd94ab11"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            true,
+            true
+          ],
+          "seconds": 0.014332603197544813
+        },
+        {
+          "frame": "4a7c9c1bdb9427dfa89ac98ea28377fee733da839ff3613f3cc72950b89f7f79",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:16ad846b04f3faa2ff19ee1b42cd2a317670776fbd7d439e36069a07c26a1e7b",
+            "ball:bd66b23ccf287b973ead096ad701ff70cc3f75957e1058cfbcba66701d9166d1"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.601238970644772
+        },
+        {
+          "frame": "65825f796b799ff4e7c7d43355025ede28374ce383031cf2da6a3bd1984f0652",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:99ccc23d384538c0ab8d09da4838d78ccfe0f22d8af78a44ee0a7cab7e1566ab",
+            "ball:64bcd3d20c3394fef09bc01d3927a0b55163ae2a602a6b48c95dca0202d03e9f"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.475567468907684
+        },
+        {
+          "frame": "a26978f6fe6c230588391b4277b699cb8a5e3a3dc115f6e457b941340677a48f",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:5fd980279ab7a6705fb3f60a85a6c45f40639a371dcd6037e29421a20e3c7a82",
+            "ball:86ab130f3266333f15bd3a9a7c5353b174032c945a740e027dfe13e003fc65ba"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0232364628463984
+        },
+        {
+          "frame": "f09a35e2963146f06b8831d2f9dac47f9393491ac09489c2a3f282fcd660ca5d",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:80b543d677689c8ffd30b6eb1a5f371da03aecc79037ca37b98f0bdc7aef828c",
+            "ball:3b4ce13507168d23323fc75fd4f6a2ce715d27a10fba9328d6b0af158fdf3303"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0218839151784778
+        },
+        {
+          "frame": "22b319a2e0d84080ed81dbb8d7a347089d3c8660eb611736c5c8809564055a47",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:80b543d677689c8ffd30b6eb1a5f371da03aecc79037ca37b98f0bdc7aef828c",
+            "ball:9a396c667b601d5672db964329cb8b231bd487a435de97244a094d5d5c29aefa"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6035040388815105
+        },
+        {
+          "frame": "5b5043433be27fbcdb99be08cb825768e0cdd98e6d49096ce3c45ea821b5eeae",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:80971b28e44ca6b9deb64bbb68db98d9d1d7b004b6534966a0adf633843b927f",
+            "ball:1d81f009f8c99b344b8029160d909909b9e63833cac9cfdbc63ad056131a92fb"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.4791207648813725
+        },
+        {
+          "frame": "f89f456eaa92441424a9c1dd26040edb2a4c945d095cefdebcfd7e6b24e662b2",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:ef36d34c27901ce35fef997c6aebb38577f7feacfcb408eb09ce58a8e066413d",
+            "ball:d307aa75277520138032436d35d3d700d7fa5a591650a5b95fca83f1de2461ab"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0128240599296987
+        },
+        {
+          "frame": "15ef1d929373e3ef551a5fa90fd26e0affe8e01b6f8bd456e7a697ca09a793f3",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:759c17c24f25aca5ebc7d27272d197dc029db068571906d51d4346c22c7667ca",
+            "ball:36c4eb74a4bd28327ce94398969f4e8eb864b74afe9021541d2dd9bd47a5c6a5"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0106860948726535
+        },
+        {
+          "frame": "070445ac191c4f2eb66f9c6d98a8b6309f73a42f1d4d8e1d16f87e7dec25c347",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:759c17c24f25aca5ebc7d27272d197dc029db068571906d51d4346c22c7667ca",
+            "ball:4fdbc9c5d211b58a6e790072253eb41560f8a1f6967fcf5f6eb9cc8dc7be57fc"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6084020067937672
+        },
+        {
+          "frame": "77af1117dc422b0b44ee9e13aecda909b1b854d0ca5c5e1c7153b799e3b5d029",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:67d0eb4743f6109f590b5b1e8d553986d9657ba424e913d1230fe84c49dbb61b",
+            "ball:ac66112d9c1bd5ad240342cbd0d2a4b095c79f2e5f398a201da0e26a3ba41ef4"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.4795279763638973
+        },
+        {
+          "frame": "e765f15e1ef839c33265a9046e34aba16b4d45b7cfc0a2fc753748a5a5794fa8",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:c0e59e0d93b564d73c1a8fc15ccfd2dbcca0f2e25d0d4dd378bf2feefb94bdeb",
+            "ball:46822db7afc6302f66cab81b06f09d0a9dcf728aa8d3815c7e1859fb2149ef28"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0104470630176365
+        },
+        {
+          "frame": "6788bc151c5639fb9a624d763f751e36247a42dbd96d737ef81967ab24815c0c",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:adf5f9273e5a440b024895e37e1532a3f4d1734c19e53a32a0b000e1d9c3f546",
+            "ball:f3a07fc6d5326e2e3fedc2a2c4243d403a09768c4b159e57d125dfb1fd025139"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0068652420304716
+        },
+        {
+          "frame": "4b474a34c927bf072224537324d38808a5a195a736dfa41f55fd70ac2c6b9489",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:adf5f9273e5a440b024895e37e1532a3f4d1734c19e53a32a0b000e1d9c3f546",
+            "ball:7fab2b93decaa16869ff8d3ed7622306cae5bf09d0f864e67d1ce45f91fc748a"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6079459711909294
+        },
+        {
+          "frame": "3cfa8753f19a565c5961fda644af480208d4228d1e8f77217d993602ed912d75",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:63fd4122ec0af3037417315bdeae527bdfafa1fe2b5596a4e5a329976ea842c3",
+            "ball:abf8fa2554c792fcee98084bd5522e60d311e8e117837cf979e878729982634a"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.488704049959779
+        },
+        {
+          "frame": "73c76b8978db80c4606b92f7b541d7dc1346e463aba99014155b82a7e91cd3ff",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:96f8ef0304d2f16445e6dd5dc5db8678d2215262e08d0ef8892dda67b6ab4d5e",
+            "ball:375c1a518c5e1cc74100c6228c4802a7ef40b686fd28de29d5893b791907ae13"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.058825673069805
+        },
+        {
+          "frame": "0dff7849060e241e511298d57e129e9ddb1672a1ee32a3790047695e816625c6",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:ef5db87582e255108461c94e2bd53e44c5ec9ddd5320d15809cf1284791d2631",
+            "ball:99f0d1d38834667d6b4f3ebb89b8e3386ca0b648bcc7042e8005ae5b10140799"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.056068998761475
+        },
+        {
+          "frame": "396a5160100e16b0956fe8c9440acf8e0802f59bd2f1eec93994aa4421dc9b3e",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:ef5db87582e255108461c94e2bd53e44c5ec9ddd5320d15809cf1284791d2631",
+            "ball:b23872ccbd8a8b62f34ef29b07123c842a04e545c4261aa39ad715cae68f10eb"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.5989876710809767
+        },
+        {
+          "frame": "989ad0568793518b1516b24a9be96187d1760d96d5e0e48ad2dfe7b6545e481f",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0622fe83b4b6ff3a7f31b897b1dca529833b12df319622024eee796adf9fcb48",
+            "ball:2d52e74140a98537b9380ffcd37fddd4291a68d245f13d6b9a3a17612a083131"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.4794064750894904
+        },
+        {
+          "frame": "a2f46a47e3a43cb45e08e6b85dc30d27ddc292fc197a0bfee1a563c7e4694887",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:aad366792975c0474fc5bd59ff18a8a5a2c5334d0b7a286656400ea2d193def2",
+            "ball:938ed1a3fe3ef9475b1901d8f60038dd416716e09231b44918fecaf9ff98c66d"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0067878272384405
+        },
+        {
+          "frame": "aa363af2f654b4bc7120a4f3a990b56824efda18b00651c556402d43e0dea8fb",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:001edfc01d6a8d9eca113c9885e0a481113ecf8301b7752a3d22ffe7f25be70c",
+            "ball:e99f68939a201228ae2057fe25c2b95b560183317177ff917f09b2f4746ed288"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0032960339449346
+        },
+        {
+          "frame": "1de2b256ea4554b4376bb678ce27d222447afd35301b512f6ab18e5f88c4df93",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:001edfc01d6a8d9eca113c9885e0a481113ecf8301b7752a3d22ffe7f25be70c",
+            "ball:7e976aa7c07dfc77c6019c2382508888d7ad68d152ff1b8081c2c4cd6fd2cb83"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6097977771423757
+        },
+        {
+          "frame": "81c2a270f18fdcd03f38414b7a6c10aeae53b2cf2421482bb4a74ba1848840f2",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:84c4e2d385299ae7ec50089172523d27ee38d7565c0b8a1dc1322e1973aaac7c",
+            "ball:f63732f25a7609a89fcb42bd963d2eb5a23969602db5c5bb226ab21e2d21bf23"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.4912512749433517
+        },
+        {
+          "frame": "ee7a96ef5859694ace4912e9a9c14a739b4c10d51119bfaa5f03a3db144cdb86",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:7ac5e5def1cbabe6ee11e82c0ad70273d697ac97f1dcc0f0557952a069597568",
+            "ball:e342548947e9180fd8e13123fb9dabf8eb92cd4938e3f499b10ec77fe5c80315"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.059998675249517
+        },
+        {
+          "frame": "d8c5000fe4ef707135d7a0131ce76d0f57ebcb52159e42dc61f7915140a900e9",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:5efc43eabfac35a6530405a0306a25352a628431490b503b22aed47c380bc406",
+            "ball:09021a2155afcb12fe9d274ddea12008bc77079e506fd416972bb9ea25ae1202"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.057912991847843
+        },
+        {
+          "frame": "fbfdb082c8ca7d70e29463175609847eb18977fc27d3d2535d05a926fb8178ee",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:5efc43eabfac35a6530405a0306a25352a628431490b503b22aed47c380bc406",
+            "ball:9d1023515a1029a3a448c84cb2ca451c0c80d735e9ef3a7b898a51d13cd2686e"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.5988600868731737
+        },
+        {
+          "frame": "76256ee8fb1b6d0771fa91827bb74020f52c261b99e71386eadb9bb6f7ab5e62",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:7b899c5f5b3f96194e16a5c7dc5a62d45432139d43c6b201a9a68d3e8615f00f",
+            "ball:36c4eb74a4bd28327ce94398969f4e8eb864b74afe9021541d2dd9bd47a5c6a5"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 1.6000808249227703
+        },
+        {
+          "frame": "f2a13fc431cc13ef61678d043cb5a855ec6d14a966cdf05eec8b7a047522006b",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:b4c4577fb5bd2446e3667db6914c4e05a65cd645857fdc3523351d605a1e2ea8",
+            "ball:0462c630040de5eaa4f324288da2c60a0d3dcebb122ceb3b9f2d4b655befeff5"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.4517748430371284
+        },
+        {
+          "frame": "bf09a7ade228f3b6aa837dcba334b07395e6f4e0343885ea30a8d83ecb8d8309",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:1005658218e90d277b1b8be04d6f3648854455bf9039f93b2404e9addadfda3b",
+            "ball:99f0d1d38834667d6b4f3ebb89b8e3386ca0b648bcc7042e8005ae5b10140799"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 1.5710924500599504
+        },
+        {
+          "frame": "16fc272c29c5fe768f2a34cadad5db2f28654736b008bf6cdc0193d192ffbbc2",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:1005658218e90d277b1b8be04d6f3648854455bf9039f93b2404e9addadfda3b",
+            "ball:b23872ccbd8a8b62f34ef29b07123c842a04e545c4261aa39ad715cae68f10eb"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            true
+          ],
+          "seconds": 0.009643604047596455
+        },
+        {
+          "frame": "8dba726a5d00064398293da0f081c1fe86cbc027c73ec1b430930cdd23233a1d",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:2a715d3ed80f7d10676731bde9ca9b6eb40df1d0ea8b66bde07e0ee0a7316f78",
+            "ball:e99f68939a201228ae2057fe25c2b95b560183317177ff917f09b2f4746ed288"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.9038489148952067
+        },
+        {
+          "frame": "d5b1a72e60c78a41d7187034dcc630004e9c1b54f5cd607bd7530629652ede17",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0038e18785f17bb0ce4a011f0457d39641e859f9d6e1e1772ca905ea09e05dc3",
+            "ball:43b57f8d59d59ad12ef83fc35a93927c42b83ab3a7765059222ea6432b5f13ec"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0098005328327417
+        },
+        {
+          "frame": "d719afee57905b5e9ead1f250b36f093a6f0280a6b67464409ce1324c2e8b2ca",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:b764400daf5e09bb149759c8efa3341bda889b2bc08444331a0600f960087301",
+            "ball:0edc744d224e4de85e10d87f096542d1ca9d4579eee2469ad0387a74c78a6aed"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0064896936528385
+        },
+        {
+          "frame": "8e9b74ff475263b32096c43cf93eb28eda015a4c1a3cf2622e7f15503a64d8e5",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:b764400daf5e09bb149759c8efa3341bda889b2bc08444331a0600f960087301",
+            "ball:89bcf7aa4caca1d7e250e9f0405d925c06e86a7227487c188e57b1803fda56a2"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6044481270946562
+        },
+        {
+          "frame": "816396273225da9c67083f49ecffaad12be6d6bafa6193f8fe32fe735a0e696a",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:20a456e09481541452a6cf01be7a2c9baec78e222cbb792c0a73e0ee0df1260e",
+            "ball:d64924805b35cfcb8e7bee5da75df1dcd3e6771eae24839df156189c0b2292ac"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.4765485669486225
+        },
+        {
+          "frame": "1a9a99eab23da3efb62c13227d09ffb978ab411f196972902c95ede18dc3b26c",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:70380681d1b220766061f5afc7432d8ddcf4d46aa042d46695af2395b78f9f81",
+            "ball:17cc73c9e780a31ce6778e4f20de53018d2a246a884f75a2b52311f32771e581"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.066361757926643
+        },
+        {
+          "frame": "c3b7fafeb59e28c4ae5164ab72bf0d45e8da344a47c40ffc476d548bd541701b",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:fae4a9f2d47b133c73febd06f0723a72230fd500c42ca71d7d88a3d5a0b04326",
+            "ball:0dad7573bdd1a02adffd6821a09fd92280bd45c1ed6b8a8fda69b466a912392d"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0641448106616735
+        },
+        {
+          "frame": "0a3cc019c9b97e35c8add82189f60cb279d566232a6aa83213e8ad2928cf0b8b",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:fae4a9f2d47b133c73febd06f0723a72230fd500c42ca71d7d88a3d5a0b04326",
+            "ball:cdc36528ac8557600338f3df7d736ecea596a1e0ad57290d96bbab71c52932cf"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.5934598832391202
+        },
+        {
+          "frame": "6fed671501c17e34bbe6a4f924cbeba4ec34bc447931f7c705609786115b7325",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0ed0499ce6b34b68ad8c5bad51e019fdc4fd25be46a67e9fe88cde0b390c6666",
+            "ball:64bcd3d20c3394fef09bc01d3927a0b55163ae2a602a6b48c95dca0202d03e9f"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 1.594056406058371
+        },
+        {
+          "frame": "da925afd487f6dbfcce1112c9bcaa7a1868857c9d84fb9534e62eb5e40ddd029",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:741378b917cc028dcfc50fe386499a49f40962a8a2235abb3dc008c43fddfea0",
+            "ball:075d480bbcc107deef1465428cd404e42d136af93c0900b6872adea603f31c2a"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0435576578602195
+        },
+        {
+          "frame": "f9e1fb5f77983da1069ce70e81bbeb9e53d1a031f787e67141b657c250b614a7",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:4d30ce3235dbd7d0adc7d3694593b6557e726a913d31d8459f740d8c8eb616e1",
+            "ball:d28a6db19dcf45b28f602c0ad8cec3c585cf3f0372c9e028980338e8f8ad7939"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.04150309599936
+        },
+        {
+          "frame": "caa4bf4084de0780e28fb61ca7120f1b93561ff91952523e4b549f46dff0f6c3",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:4d30ce3235dbd7d0adc7d3694593b6557e726a913d31d8459f740d8c8eb616e1",
+            "ball:e4eadfda516dbc9df3d2a8d0e5416cf88ead89926503d19d2897fdedb4feb9a3"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6064867139793932
+        },
+        {
+          "frame": "e49d6a10bb2e77965411fbe47cb618266049e46bdd44bb14268c1928e2ce9390",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:4046ea116a8a643c2d079e9ed4243e07c761a27508824cd0481aa7e4e3088842",
+            "ball:2d52e74140a98537b9380ffcd37fddd4291a68d245f13d6b9a3a17612a083131"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 1.6067975889891386
+        },
+        {
+          "frame": "0217154193e73818e5130c98263f025b0bbd0a96924149241145a7d824bd47f6",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:6ac2d7d5b128f0525e413a6935bb7ddf524f40617b66ff8483f1f8a4dc866168",
+            "ball:72be9a7516c8add4f5976f7c3cc249f15afc54505620cd5492385584aac2459a"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.460829319898039
+        },
+        {
+          "frame": "53ac214cd660d9d0d1815ae684e0d280bb10799bdc1a03b23d618e1279f1ca54",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:b0cafba29b0dc792ff1e4090921de0d3ae46ac0de8d5e573cd2d65e35e181f6d",
+            "ball:ac66112d9c1bd5ad240342cbd0d2a4b095c79f2e5f398a201da0e26a3ba41ef4"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 1.5799174034036696
+        },
+        {
+          "frame": "72bbf494be9806329dc9db056d6dd4790707961c4867e280beea75d608a8e415",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:b0cafba29b0dc792ff1e4090921de0d3ae46ac0de8d5e573cd2d65e35e181f6d",
+            "ball:5a42e32497e64b2c40831539bbd5b1f2e81024d5ea583db32a8ff83650f8fee2"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.5793216177262366
+        },
+        {
+          "frame": "3035efa980b63229f297215b95e36f2624a190a40c1312b887e2601857268e44",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:a7ae2b353f87af6a4703edb75468c3e8f061e8bb6373aae8a5ff222f7ab103e4",
+            "ball:59e75b77f16a065d485e226cc941322facf5f1e69b85390321989b4bb0884acc"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.445077800191939
+        }
+      ],
+      "mean_head_seconds_excluding_cache": {
+        "place": 1.5536795820419986,
+        "ball": 1.3619455244028713
+      },
+      "p50_latency": 2.4760580179281533
+    },
+    {
+      "lanes": 2,
+      "images_per_second": 0.8156069145016808,
+      "seconds": 58.85187968192622,
+      "correct": [
+        46,
+        48,
+        48,
+        48
+      ],
+      "positive_recall": [
+        1.0,
+        1.0
+      ],
+      "results": [
+        {
+          "frame": "4c519a46ffda6f7070fa49f0d27d3492b306e85f9e33ecdcd7410c2124b9d754",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:d90e15e51c748baf2e4ec560b56f33a27ed6e5e56bd97bcaa550579f2b20587b",
+            "ball:681a58ddcea823bcf6f67fe2f443b6c569b2f37b2544737df8345d6cb3b056a3"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            true,
+            true
+          ],
+          "seconds": 0.011368080973625183
+        },
+        {
+          "frame": "94cfac9b21dc1b2093b1a0af94d18c5e91d303ca4c8ff9a5364cd6758fafacbb",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:16ad846b04f3faa2ff19ee1b42cd2a317670776fbd7d439e36069a07c26a1e7b",
+            "ball:4a96fff4dc61262ca2d690d5d4475fe57a66fbaf557ffdc0d89bd10bdd94ab11"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            true,
+            true
+          ],
+          "seconds": 0.013991471845656633
+        },
+        {
+          "frame": "4a7c9c1bdb9427dfa89ac98ea28377fee733da839ff3613f3cc72950b89f7f79",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:16ad846b04f3faa2ff19ee1b42cd2a317670776fbd7d439e36069a07c26a1e7b",
+            "ball:bd66b23ccf287b973ead096ad701ff70cc3f75957e1058cfbcba66701d9166d1"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6130372839979827
+        },
+        {
+          "frame": "65825f796b799ff4e7c7d43355025ede28374ce383031cf2da6a3bd1984f0652",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:99ccc23d384538c0ab8d09da4838d78ccfe0f22d8af78a44ee0a7cab7e1566ab",
+            "ball:64bcd3d20c3394fef09bc01d3927a0b55163ae2a602a6b48c95dca0202d03e9f"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.492946875281632
+        },
+        {
+          "frame": "a26978f6fe6c230588391b4277b699cb8a5e3a3dc115f6e457b941340677a48f",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:5fd980279ab7a6705fb3f60a85a6c45f40639a371dcd6037e29421a20e3c7a82",
+            "ball:86ab130f3266333f15bd3a9a7c5353b174032c945a740e027dfe13e003fc65ba"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0306048169732094
+        },
+        {
+          "frame": "f09a35e2963146f06b8831d2f9dac47f9393491ac09489c2a3f282fcd660ca5d",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:80b543d677689c8ffd30b6eb1a5f371da03aecc79037ca37b98f0bdc7aef828c",
+            "ball:3b4ce13507168d23323fc75fd4f6a2ce715d27a10fba9328d6b0af158fdf3303"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0327197620645165
+        },
+        {
+          "frame": "22b319a2e0d84080ed81dbb8d7a347089d3c8660eb611736c5c8809564055a47",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:80b543d677689c8ffd30b6eb1a5f371da03aecc79037ca37b98f0bdc7aef828c",
+            "ball:9a396c667b601d5672db964329cb8b231bd487a435de97244a094d5d5c29aefa"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6096094269305468
+        },
+        {
+          "frame": "5b5043433be27fbcdb99be08cb825768e0cdd98e6d49096ce3c45ea821b5eeae",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:80971b28e44ca6b9deb64bbb68db98d9d1d7b004b6534966a0adf633843b927f",
+            "ball:1d81f009f8c99b344b8029160d909909b9e63833cac9cfdbc63ad056131a92fb"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.4888925929553807
+        },
+        {
+          "frame": "f89f456eaa92441424a9c1dd26040edb2a4c945d095cefdebcfd7e6b24e662b2",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:ef36d34c27901ce35fef997c6aebb38577f7feacfcb408eb09ce58a8e066413d",
+            "ball:d307aa75277520138032436d35d3d700d7fa5a591650a5b95fca83f1de2461ab"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0156579869799316
+        },
+        {
+          "frame": "15ef1d929373e3ef551a5fa90fd26e0affe8e01b6f8bd456e7a697ca09a793f3",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:759c17c24f25aca5ebc7d27272d197dc029db068571906d51d4346c22c7667ca",
+            "ball:36c4eb74a4bd28327ce94398969f4e8eb864b74afe9021541d2dd9bd47a5c6a5"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.017143881879747
+        },
+        {
+          "frame": "070445ac191c4f2eb66f9c6d98a8b6309f73a42f1d4d8e1d16f87e7dec25c347",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:759c17c24f25aca5ebc7d27272d197dc029db068571906d51d4346c22c7667ca",
+            "ball:4fdbc9c5d211b58a6e790072253eb41560f8a1f6967fcf5f6eb9cc8dc7be57fc"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6142986179329455
+        },
+        {
+          "frame": "77af1117dc422b0b44ee9e13aecda909b1b854d0ca5c5e1c7153b799e3b5d029",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:67d0eb4743f6109f590b5b1e8d553986d9657ba424e913d1230fe84c49dbb61b",
+            "ball:ac66112d9c1bd5ad240342cbd0d2a4b095c79f2e5f398a201da0e26a3ba41ef4"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.492335209157318
+        },
+        {
+          "frame": "e765f15e1ef839c33265a9046e34aba16b4d45b7cfc0a2fc753748a5a5794fa8",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:c0e59e0d93b564d73c1a8fc15ccfd2dbcca0f2e25d0d4dd378bf2feefb94bdeb",
+            "ball:46822db7afc6302f66cab81b06f09d0a9dcf728aa8d3815c7e1859fb2149ef28"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.016756296623498
+        },
+        {
+          "frame": "6788bc151c5639fb9a624d763f751e36247a42dbd96d737ef81967ab24815c0c",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:adf5f9273e5a440b024895e37e1532a3f4d1734c19e53a32a0b000e1d9c3f546",
+            "ball:f3a07fc6d5326e2e3fedc2a2c4243d403a09768c4b159e57d125dfb1fd025139"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0184441786259413
+        },
+        {
+          "frame": "4b474a34c927bf072224537324d38808a5a195a736dfa41f55fd70ac2c6b9489",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:adf5f9273e5a440b024895e37e1532a3f4d1734c19e53a32a0b000e1d9c3f546",
+            "ball:7fab2b93decaa16869ff8d3ed7622306cae5bf09d0f864e67d1ce45f91fc748a"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.612941652070731
+        },
+        {
+          "frame": "3cfa8753f19a565c5961fda644af480208d4228d1e8f77217d993602ed912d75",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:63fd4122ec0af3037417315bdeae527bdfafa1fe2b5596a4e5a329976ea842c3",
+            "ball:abf8fa2554c792fcee98084bd5522e60d311e8e117837cf979e878729982634a"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.496794621925801
+        },
+        {
+          "frame": "73c76b8978db80c4606b92f7b541d7dc1346e463aba99014155b82a7e91cd3ff",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:96f8ef0304d2f16445e6dd5dc5db8678d2215262e08d0ef8892dda67b6ab4d5e",
+            "ball:375c1a518c5e1cc74100c6228c4802a7ef40b686fd28de29d5893b791907ae13"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0643166727386415
+        },
+        {
+          "frame": "0dff7849060e241e511298d57e129e9ddb1672a1ee32a3790047695e816625c6",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:ef5db87582e255108461c94e2bd53e44c5ec9ddd5320d15809cf1284791d2631",
+            "ball:99f0d1d38834667d6b4f3ebb89b8e3386ca0b648bcc7042e8005ae5b10140799"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0624607051722705
+        },
+        {
+          "frame": "396a5160100e16b0956fe8c9440acf8e0802f59bd2f1eec93994aa4421dc9b3e",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:ef5db87582e255108461c94e2bd53e44c5ec9ddd5320d15809cf1284791d2631",
+            "ball:b23872ccbd8a8b62f34ef29b07123c842a04e545c4261aa39ad715cae68f10eb"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.588977131061256
+        },
+        {
+          "frame": "989ad0568793518b1516b24a9be96187d1760d96d5e0e48ad2dfe7b6545e481f",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0622fe83b4b6ff3a7f31b897b1dca529833b12df319622024eee796adf9fcb48",
+            "ball:2d52e74140a98537b9380ffcd37fddd4291a68d245f13d6b9a3a17612a083131"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.467059505172074
+        },
+        {
+          "frame": "a2f46a47e3a43cb45e08e6b85dc30d27ddc292fc197a0bfee1a563c7e4694887",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:aad366792975c0474fc5bd59ff18a8a5a2c5334d0b7a286656400ea2d193def2",
+            "ball:938ed1a3fe3ef9475b1901d8f60038dd416716e09231b44918fecaf9ff98c66d"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.022285971790552
+        },
+        {
+          "frame": "aa363af2f654b4bc7120a4f3a990b56824efda18b00651c556402d43e0dea8fb",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:001edfc01d6a8d9eca113c9885e0a481113ecf8301b7752a3d22ffe7f25be70c",
+            "ball:e99f68939a201228ae2057fe25c2b95b560183317177ff917f09b2f4746ed288"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0238948399201035
+        },
+        {
+          "frame": "1de2b256ea4554b4376bb678ce27d222447afd35301b512f6ab18e5f88c4df93",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:001edfc01d6a8d9eca113c9885e0a481113ecf8301b7752a3d22ffe7f25be70c",
+            "ball:7e976aa7c07dfc77c6019c2382508888d7ad68d152ff1b8081c2c4cd6fd2cb83"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6179413977079093
+        },
+        {
+          "frame": "81c2a270f18fdcd03f38414b7a6c10aeae53b2cf2421482bb4a74ba1848840f2",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:84c4e2d385299ae7ec50089172523d27ee38d7565c0b8a1dc1322e1973aaac7c",
+            "ball:f63732f25a7609a89fcb42bd963d2eb5a23969602db5c5bb226ab21e2d21bf23"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.4956407956779003
+        },
+        {
+          "frame": "ee7a96ef5859694ace4912e9a9c14a739b4c10d51119bfaa5f03a3db144cdb86",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:7ac5e5def1cbabe6ee11e82c0ad70273d697ac97f1dcc0f0557952a069597568",
+            "ball:e342548947e9180fd8e13123fb9dabf8eb92cd4938e3f499b10ec77fe5c80315"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0592370140366256
+        },
+        {
+          "frame": "d8c5000fe4ef707135d7a0131ce76d0f57ebcb52159e42dc61f7915140a900e9",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:5efc43eabfac35a6530405a0306a25352a628431490b503b22aed47c380bc406",
+            "ball:09021a2155afcb12fe9d274ddea12008bc77079e506fd416972bb9ea25ae1202"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.058765545953065
+        },
+        {
+          "frame": "fbfdb082c8ca7d70e29463175609847eb18977fc27d3d2535d05a926fb8178ee",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:5efc43eabfac35a6530405a0306a25352a628431490b503b22aed47c380bc406",
+            "ball:9d1023515a1029a3a448c84cb2ca451c0c80d735e9ef3a7b898a51d13cd2686e"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.5994964358396828
+        },
+        {
+          "frame": "76256ee8fb1b6d0771fa91827bb74020f52c261b99e71386eadb9bb6f7ab5e62",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:7b899c5f5b3f96194e16a5c7dc5a62d45432139d43c6b201a9a68d3e8615f00f",
+            "ball:36c4eb74a4bd28327ce94398969f4e8eb864b74afe9021541d2dd9bd47a5c6a5"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 1.5998337571509182
+        },
+        {
+          "frame": "f2a13fc431cc13ef61678d043cb5a855ec6d14a966cdf05eec8b7a047522006b",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:b4c4577fb5bd2446e3667db6914c4e05a65cd645857fdc3523351d605a1e2ea8",
+            "ball:0462c630040de5eaa4f324288da2c60a0d3dcebb122ceb3b9f2d4b655befeff5"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.4602108662948012
+        },
+        {
+          "frame": "bf09a7ade228f3b6aa837dcba334b07395e6f4e0343885ea30a8d83ecb8d8309",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:1005658218e90d277b1b8be04d6f3648854455bf9039f93b2404e9addadfda3b",
+            "ball:99f0d1d38834667d6b4f3ebb89b8e3386ca0b648bcc7042e8005ae5b10140799"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 1.5763614512979984
+        },
+        {
+          "frame": "16fc272c29c5fe768f2a34cadad5db2f28654736b008bf6cdc0193d192ffbbc2",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:1005658218e90d277b1b8be04d6f3648854455bf9039f93b2404e9addadfda3b",
+            "ball:b23872ccbd8a8b62f34ef29b07123c842a04e545c4261aa39ad715cae68f10eb"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            true
+          ],
+          "seconds": 0.011438675690442324
+        },
+        {
+          "frame": "8dba726a5d00064398293da0f081c1fe86cbc027c73ec1b430930cdd23233a1d",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:2a715d3ed80f7d10676731bde9ca9b6eb40df1d0ea8b66bde07e0ee0a7316f78",
+            "ball:e99f68939a201228ae2057fe25c2b95b560183317177ff917f09b2f4746ed288"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.9024220569990575
+        },
+        {
+          "frame": "d5b1a72e60c78a41d7187034dcc630004e9c1b54f5cd607bd7530629652ede17",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0038e18785f17bb0ce4a011f0457d39641e859f9d6e1e1772ca905ea09e05dc3",
+            "ball:43b57f8d59d59ad12ef83fc35a93927c42b83ab3a7765059222ea6432b5f13ec"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0124480319209397
+        },
+        {
+          "frame": "d719afee57905b5e9ead1f250b36f093a6f0280a6b67464409ce1324c2e8b2ca",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:b764400daf5e09bb149759c8efa3341bda889b2bc08444331a0600f960087301",
+            "ball:0edc744d224e4de85e10d87f096542d1ca9d4579eee2469ad0387a74c78a6aed"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.011980853974819
+        },
+        {
+          "frame": "8e9b74ff475263b32096c43cf93eb28eda015a4c1a3cf2622e7f15503a64d8e5",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:b764400daf5e09bb149759c8efa3341bda889b2bc08444331a0600f960087301",
+            "ball:89bcf7aa4caca1d7e250e9f0405d925c06e86a7227487c188e57b1803fda56a2"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6040762928314507
+        },
+        {
+          "frame": "816396273225da9c67083f49ecffaad12be6d6bafa6193f8fe32fe735a0e696a",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:20a456e09481541452a6cf01be7a2c9baec78e222cbb792c0a73e0ee0df1260e",
+            "ball:d64924805b35cfcb8e7bee5da75df1dcd3e6771eae24839df156189c0b2292ac"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.486310630105436
+        },
+        {
+          "frame": "1a9a99eab23da3efb62c13227d09ffb978ab411f196972902c95ede18dc3b26c",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:70380681d1b220766061f5afc7432d8ddcf4d46aa042d46695af2395b78f9f81",
+            "ball:17cc73c9e780a31ce6778e4f20de53018d2a246a884f75a2b52311f32771e581"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0707733067683876
+        },
+        {
+          "frame": "c3b7fafeb59e28c4ae5164ab72bf0d45e8da344a47c40ffc476d548bd541701b",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:fae4a9f2d47b133c73febd06f0723a72230fd500c42ca71d7d88a3d5a0b04326",
+            "ball:0dad7573bdd1a02adffd6821a09fd92280bd45c1ed6b8a8fda69b466a912392d"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.069193733856082
+        },
+        {
+          "frame": "0a3cc019c9b97e35c8add82189f60cb279d566232a6aa83213e8ad2928cf0b8b",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:fae4a9f2d47b133c73febd06f0723a72230fd500c42ca71d7d88a3d5a0b04326",
+            "ball:cdc36528ac8557600338f3df7d736ecea596a1e0ad57290d96bbab71c52932cf"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.600033825263381
+        },
+        {
+          "frame": "6fed671501c17e34bbe6a4f924cbeba4ec34bc447931f7c705609786115b7325",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0ed0499ce6b34b68ad8c5bad51e019fdc4fd25be46a67e9fe88cde0b390c6666",
+            "ball:64bcd3d20c3394fef09bc01d3927a0b55163ae2a602a6b48c95dca0202d03e9f"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 1.6020519863814116
+        },
+        {
+          "frame": "da925afd487f6dbfcce1112c9bcaa7a1868857c9d84fb9534e62eb5e40ddd029",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:741378b917cc028dcfc50fe386499a49f40962a8a2235abb3dc008c43fddfea0",
+            "ball:075d480bbcc107deef1465428cd404e42d136af93c0900b6872adea603f31c2a"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0447669667191803
+        },
+        {
+          "frame": "f9e1fb5f77983da1069ce70e81bbeb9e53d1a031f787e67141b657c250b614a7",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:4d30ce3235dbd7d0adc7d3694593b6557e726a913d31d8459f740d8c8eb616e1",
+            "ball:d28a6db19dcf45b28f602c0ad8cec3c585cf3f0372c9e028980338e8f8ad7939"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 3.0463807969354093
+        },
+        {
+          "frame": "caa4bf4084de0780e28fb61ca7120f1b93561ff91952523e4b549f46dff0f6c3",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:4d30ce3235dbd7d0adc7d3694593b6557e726a913d31d8459f740d8c8eb616e1",
+            "ball:e4eadfda516dbc9df3d2a8d0e5416cf88ead89926503d19d2897fdedb4feb9a3"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.6141413869336247
+        },
+        {
+          "frame": "e49d6a10bb2e77965411fbe47cb618266049e46bdd44bb14268c1928e2ce9390",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:4046ea116a8a643c2d079e9ed4243e07c761a27508824cd0481aa7e4e3088842",
+            "ball:2d52e74140a98537b9380ffcd37fddd4291a68d245f13d6b9a3a17612a083131"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 1.6151518118567765
+        },
+        {
+          "frame": "0217154193e73818e5130c98263f025b0bbd0a96924149241145a7d824bd47f6",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:6ac2d7d5b128f0525e413a6935bb7ddf524f40617b66ff8483f1f8a4dc866168",
+            "ball:72be9a7516c8add4f5976f7c3cc249f15afc54505620cd5492385584aac2459a"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.4667727700434625
+        },
+        {
+          "frame": "53ac214cd660d9d0d1815ae684e0d280bb10799bdc1a03b23d618e1279f1ca54",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:b0cafba29b0dc792ff1e4090921de0d3ae46ac0de8d5e573cd2d65e35e181f6d",
+            "ball:ac66112d9c1bd5ad240342cbd0d2a4b095c79f2e5f398a201da0e26a3ba41ef4"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 1.5756858810782433
+        },
+        {
+          "frame": "72bbf494be9806329dc9db056d6dd4790707961c4867e280beea75d608a8e415",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:b0cafba29b0dc792ff1e4090921de0d3ae46ac0de8d5e573cd2d65e35e181f6d",
+            "ball:5a42e32497e64b2c40831539bbd5b1f2e81024d5ea583db32a8ff83650f8fee2"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 1.5816995110362768
+        },
+        {
+          "frame": "3035efa980b63229f297215b95e36f2624a190a40c1312b887e2601857268e44",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:a7ae2b353f87af6a4703edb75468c3e8f061e8bb6373aae8a5ff222f7ab103e4",
+            "ball:59e75b77f16a065d485e226cc941322facf5f1e69b85390321989b4bb0884acc"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 2.463404334615916
+        }
+      ],
+      "mean_head_seconds_excluding_cache": {
+        "place": 1.5531613578657724,
+        "ball": 1.3649239206868338
+      },
+      "p50_latency": 2.476685067638755
+    },
+    {
+      "lanes": 1,
+      "images_per_second": 0.7075885940457897,
+      "seconds": 67.83602845482528,
+      "correct": [
+        46,
+        48,
+        48,
+        48
+      ],
+      "positive_recall": [
+        1.0,
+        1.0
+      ],
+      "results": [
+        {
+          "frame": "4c519a46ffda6f7070fa49f0d27d3492b306e85f9e33ecdcd7410c2124b9d754",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:d90e15e51c748baf2e4ec560b56f33a27ed6e5e56bd97bcaa550579f2b20587b",
+            "ball:681a58ddcea823bcf6f67fe2f443b6c569b2f37b2544737df8345d6cb3b056a3"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            true,
+            true
+          ],
+          "seconds": 0.008264193776994944
+        },
+        {
+          "frame": "94cfac9b21dc1b2093b1a0af94d18c5e91d303ca4c8ff9a5364cd6758fafacbb",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:16ad846b04f3faa2ff19ee1b42cd2a317670776fbd7d439e36069a07c26a1e7b",
+            "ball:4a96fff4dc61262ca2d690d5d4475fe57a66fbaf557ffdc0d89bd10bdd94ab11"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7564600626938045
+        },
+        {
+          "frame": "4a7c9c1bdb9427dfa89ac98ea28377fee733da839ff3613f3cc72950b89f7f79",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:16ad846b04f3faa2ff19ee1b42cd2a317670776fbd7d439e36069a07c26a1e7b",
+            "ball:bd66b23ccf287b973ead096ad701ff70cc3f75957e1058cfbcba66701d9166d1"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.908807456959039
+        },
+        {
+          "frame": "65825f796b799ff4e7c7d43355025ede28374ce383031cf2da6a3bd1984f0652",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:99ccc23d384538c0ab8d09da4838d78ccfe0f22d8af78a44ee0a7cab7e1566ab",
+            "ball:64bcd3d20c3394fef09bc01d3927a0b55163ae2a602a6b48c95dca0202d03e9f"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7573972679674625
+        },
+        {
+          "frame": "a26978f6fe6c230588391b4277b699cb8a5e3a3dc115f6e457b941340677a48f",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:5fd980279ab7a6705fb3f60a85a6c45f40639a371dcd6037e29421a20e3c7a82",
+            "ball:86ab130f3266333f15bd3a9a7c5353b174032c945a740e027dfe13e003fc65ba"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7568785436451435
+        },
+        {
+          "frame": "f09a35e2963146f06b8831d2f9dac47f9393491ac09489c2a3f282fcd660ca5d",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:80b543d677689c8ffd30b6eb1a5f371da03aecc79037ca37b98f0bdc7aef828c",
+            "ball:3b4ce13507168d23323fc75fd4f6a2ce715d27a10fba9328d6b0af158fdf3303"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7742285272106528
+        },
+        {
+          "frame": "22b319a2e0d84080ed81dbb8d7a347089d3c8660eb611736c5c8809564055a47",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:80b543d677689c8ffd30b6eb1a5f371da03aecc79037ca37b98f0bdc7aef828c",
+            "ball:9a396c667b601d5672db964329cb8b231bd487a435de97244a094d5d5c29aefa"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9183387802913785
+        },
+        {
+          "frame": "5b5043433be27fbcdb99be08cb825768e0cdd98e6d49096ce3c45ea821b5eeae",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:80971b28e44ca6b9deb64bbb68db98d9d1d7b004b6534966a0adf633843b927f",
+            "ball:1d81f009f8c99b344b8029160d909909b9e63833cac9cfdbc63ad056131a92fb"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7516282717697322
+        },
+        {
+          "frame": "f89f456eaa92441424a9c1dd26040edb2a4c945d095cefdebcfd7e6b24e662b2",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:ef36d34c27901ce35fef997c6aebb38577f7feacfcb408eb09ce58a8e066413d",
+            "ball:d307aa75277520138032436d35d3d700d7fa5a591650a5b95fca83f1de2461ab"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7538777492009103
+        },
+        {
+          "frame": "15ef1d929373e3ef551a5fa90fd26e0affe8e01b6f8bd456e7a697ca09a793f3",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:759c17c24f25aca5ebc7d27272d197dc029db068571906d51d4346c22c7667ca",
+            "ball:36c4eb74a4bd28327ce94398969f4e8eb864b74afe9021541d2dd9bd47a5c6a5"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7639160766266286
+        },
+        {
+          "frame": "070445ac191c4f2eb66f9c6d98a8b6309f73a42f1d4d8e1d16f87e7dec25c347",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:759c17c24f25aca5ebc7d27272d197dc029db068571906d51d4346c22c7667ca",
+            "ball:4fdbc9c5d211b58a6e790072253eb41560f8a1f6967fcf5f6eb9cc8dc7be57fc"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9167316411621869
+        },
+        {
+          "frame": "77af1117dc422b0b44ee9e13aecda909b1b854d0ca5c5e1c7153b799e3b5d029",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:67d0eb4743f6109f590b5b1e8d553986d9657ba424e913d1230fe84c49dbb61b",
+            "ball:ac66112d9c1bd5ad240342cbd0d2a4b095c79f2e5f398a201da0e26a3ba41ef4"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7581110000610352
+        },
+        {
+          "frame": "e765f15e1ef839c33265a9046e34aba16b4d45b7cfc0a2fc753748a5a5794fa8",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:c0e59e0d93b564d73c1a8fc15ccfd2dbcca0f2e25d0d4dd378bf2feefb94bdeb",
+            "ball:46822db7afc6302f66cab81b06f09d0a9dcf728aa8d3815c7e1859fb2149ef28"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.756885812152177
+        },
+        {
+          "frame": "6788bc151c5639fb9a624d763f751e36247a42dbd96d737ef81967ab24815c0c",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:adf5f9273e5a440b024895e37e1532a3f4d1734c19e53a32a0b000e1d9c3f546",
+            "ball:f3a07fc6d5326e2e3fedc2a2c4243d403a09768c4b159e57d125dfb1fd025139"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7613675710745156
+        },
+        {
+          "frame": "4b474a34c927bf072224537324d38808a5a195a736dfa41f55fd70ac2c6b9489",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:adf5f9273e5a440b024895e37e1532a3f4d1734c19e53a32a0b000e1d9c3f546",
+            "ball:7fab2b93decaa16869ff8d3ed7622306cae5bf09d0f864e67d1ce45f91fc748a"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9167184820398688
+        },
+        {
+          "frame": "3cfa8753f19a565c5961fda644af480208d4228d1e8f77217d993602ed912d75",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:63fd4122ec0af3037417315bdeae527bdfafa1fe2b5596a4e5a329976ea842c3",
+            "ball:abf8fa2554c792fcee98084bd5522e60d311e8e117837cf979e878729982634a"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7627133009955287
+        },
+        {
+          "frame": "73c76b8978db80c4606b92f7b541d7dc1346e463aba99014155b82a7e91cd3ff",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:96f8ef0304d2f16445e6dd5dc5db8678d2215262e08d0ef8892dda67b6ab4d5e",
+            "ball:375c1a518c5e1cc74100c6228c4802a7ef40b686fd28de29d5893b791907ae13"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7596785998903215
+        },
+        {
+          "frame": "0dff7849060e241e511298d57e129e9ddb1672a1ee32a3790047695e816625c6",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:ef5db87582e255108461c94e2bd53e44c5ec9ddd5320d15809cf1284791d2631",
+            "ball:99f0d1d38834667d6b4f3ebb89b8e3386ca0b648bcc7042e8005ae5b10140799"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.761357198935002
+        },
+        {
+          "frame": "396a5160100e16b0956fe8c9440acf8e0802f59bd2f1eec93994aa4421dc9b3e",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:ef5db87582e255108461c94e2bd53e44c5ec9ddd5320d15809cf1284791d2631",
+            "ball:b23872ccbd8a8b62f34ef29b07123c842a04e545c4261aa39ad715cae68f10eb"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9175449106842279
+        },
+        {
+          "frame": "989ad0568793518b1516b24a9be96187d1760d96d5e0e48ad2dfe7b6545e481f",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0622fe83b4b6ff3a7f31b897b1dca529833b12df319622024eee796adf9fcb48",
+            "ball:2d52e74140a98537b9380ffcd37fddd4291a68d245f13d6b9a3a17612a083131"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.760380710940808
+        },
+        {
+          "frame": "a2f46a47e3a43cb45e08e6b85dc30d27ddc292fc197a0bfee1a563c7e4694887",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:aad366792975c0474fc5bd59ff18a8a5a2c5334d0b7a286656400ea2d193def2",
+            "ball:938ed1a3fe3ef9475b1901d8f60038dd416716e09231b44918fecaf9ff98c66d"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7625091657973826
+        },
+        {
+          "frame": "aa363af2f654b4bc7120a4f3a990b56824efda18b00651c556402d43e0dea8fb",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:001edfc01d6a8d9eca113c9885e0a481113ecf8301b7752a3d22ffe7f25be70c",
+            "ball:e99f68939a201228ae2057fe25c2b95b560183317177ff917f09b2f4746ed288"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7627319660969079
+        },
+        {
+          "frame": "1de2b256ea4554b4376bb678ce27d222447afd35301b512f6ab18e5f88c4df93",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:001edfc01d6a8d9eca113c9885e0a481113ecf8301b7752a3d22ffe7f25be70c",
+            "ball:7e976aa7c07dfc77c6019c2382508888d7ad68d152ff1b8081c2c4cd6fd2cb83"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.918214397970587
+        },
+        {
+          "frame": "81c2a270f18fdcd03f38414b7a6c10aeae53b2cf2421482bb4a74ba1848840f2",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:84c4e2d385299ae7ec50089172523d27ee38d7565c0b8a1dc1322e1973aaac7c",
+            "ball:f63732f25a7609a89fcb42bd963d2eb5a23969602db5c5bb226ab21e2d21bf23"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7613210841082036
+        },
+        {
+          "frame": "ee7a96ef5859694ace4912e9a9c14a739b4c10d51119bfaa5f03a3db144cdb86",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:7ac5e5def1cbabe6ee11e82c0ad70273d697ac97f1dcc0f0557952a069597568",
+            "ball:e342548947e9180fd8e13123fb9dabf8eb92cd4938e3f499b10ec77fe5c80315"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7634398066438735
+        },
+        {
+          "frame": "d8c5000fe4ef707135d7a0131ce76d0f57ebcb52159e42dc61f7915140a900e9",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:5efc43eabfac35a6530405a0306a25352a628431490b503b22aed47c380bc406",
+            "ball:09021a2155afcb12fe9d274ddea12008bc77079e506fd416972bb9ea25ae1202"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.8081704177893698
+        },
+        {
+          "frame": "fbfdb082c8ca7d70e29463175609847eb18977fc27d3d2535d05a926fb8178ee",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:5efc43eabfac35a6530405a0306a25352a628431490b503b22aed47c380bc406",
+            "ball:9d1023515a1029a3a448c84cb2ca451c0c80d735e9ef3a7b898a51d13cd2686e"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.912892505992204
+        },
+        {
+          "frame": "76256ee8fb1b6d0771fa91827bb74020f52c261b99e71386eadb9bb6f7ab5e62",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:7b899c5f5b3f96194e16a5c7dc5a62d45432139d43c6b201a9a68d3e8615f00f",
+            "ball:36c4eb74a4bd28327ce94398969f4e8eb864b74afe9021541d2dd9bd47a5c6a5"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.9053307110443711
+        },
+        {
+          "frame": "f2a13fc431cc13ef61678d043cb5a855ec6d14a966cdf05eec8b7a047522006b",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:b4c4577fb5bd2446e3667db6914c4e05a65cd645857fdc3523351d605a1e2ea8",
+            "ball:0462c630040de5eaa4f324288da2c60a0d3dcebb122ceb3b9f2d4b655befeff5"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7660460686311126
+        },
+        {
+          "frame": "bf09a7ade228f3b6aa837dcba334b07395e6f4e0343885ea30a8d83ecb8d8309",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:1005658218e90d277b1b8be04d6f3648854455bf9039f93b2404e9addadfda3b",
+            "ball:99f0d1d38834667d6b4f3ebb89b8e3386ca0b648bcc7042e8005ae5b10140799"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.9044422670267522
+        },
+        {
+          "frame": "16fc272c29c5fe768f2a34cadad5db2f28654736b008bf6cdc0193d192ffbbc2",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:1005658218e90d277b1b8be04d6f3648854455bf9039f93b2404e9addadfda3b",
+            "ball:b23872ccbd8a8b62f34ef29b07123c842a04e545c4261aa39ad715cae68f10eb"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            true
+          ],
+          "seconds": 0.010032566264271736
+        },
+        {
+          "frame": "8dba726a5d00064398293da0f081c1fe86cbc027c73ec1b430930cdd23233a1d",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:2a715d3ed80f7d10676731bde9ca9b6eb40df1d0ea8b66bde07e0ee0a7316f78",
+            "ball:e99f68939a201228ae2057fe25c2b95b560183317177ff917f09b2f4746ed288"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.90585430059582
+        },
+        {
+          "frame": "d5b1a72e60c78a41d7187034dcc630004e9c1b54f5cd607bd7530629652ede17",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0038e18785f17bb0ce4a011f0457d39641e859f9d6e1e1772ca905ea09e05dc3",
+            "ball:43b57f8d59d59ad12ef83fc35a93927c42b83ab3a7765059222ea6432b5f13ec"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7601749110035598
+        },
+        {
+          "frame": "d719afee57905b5e9ead1f250b36f093a6f0280a6b67464409ce1324c2e8b2ca",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:b764400daf5e09bb149759c8efa3341bda889b2bc08444331a0600f960087301",
+            "ball:0edc744d224e4de85e10d87f096542d1ca9d4579eee2469ad0387a74c78a6aed"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.8120132978074253
+        },
+        {
+          "frame": "8e9b74ff475263b32096c43cf93eb28eda015a4c1a3cf2622e7f15503a64d8e5",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:b764400daf5e09bb149759c8efa3341bda889b2bc08444331a0600f960087301",
+            "ball:89bcf7aa4caca1d7e250e9f0405d925c06e86a7227487c188e57b1803fda56a2"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9061167677864432
+        },
+        {
+          "frame": "816396273225da9c67083f49ecffaad12be6d6bafa6193f8fe32fe735a0e696a",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:20a456e09481541452a6cf01be7a2c9baec78e222cbb792c0a73e0ee0df1260e",
+            "ball:d64924805b35cfcb8e7bee5da75df1dcd3e6771eae24839df156189c0b2292ac"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.761836958117783
+        },
+        {
+          "frame": "1a9a99eab23da3efb62c13227d09ffb978ab411f196972902c95ede18dc3b26c",
+          "codes": [
+            "A",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:70380681d1b220766061f5afc7432d8ddcf4d46aa042d46695af2395b78f9f81",
+            "ball:17cc73c9e780a31ce6778e4f20de53018d2a246a884f75a2b52311f32771e581"
+          ],
+          "raw": [
+            "A",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7628668486140668
+        },
+        {
+          "frame": "c3b7fafeb59e28c4ae5164ab72bf0d45e8da344a47c40ffc476d548bd541701b",
+          "codes": [
+            "B",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:fae4a9f2d47b133c73febd06f0723a72230fd500c42ca71d7d88a3d5a0b04326",
+            "ball:0dad7573bdd1a02adffd6821a09fd92280bd45c1ed6b8a8fda69b466a912392d"
+          ],
+          "raw": [
+            "B",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7605039081536233
+        },
+        {
+          "frame": "0a3cc019c9b97e35c8add82189f60cb279d566232a6aa83213e8ad2928cf0b8b",
+          "codes": [
+            "B",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:fae4a9f2d47b133c73febd06f0723a72230fd500c42ca71d7d88a3d5a0b04326",
+            "ball:cdc36528ac8557600338f3df7d736ecea596a1e0ad57290d96bbab71c52932cf"
+          ],
+          "raw": [
+            "B",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9170227623544633
+        },
+        {
+          "frame": "6fed671501c17e34bbe6a4f924cbeba4ec34bc447931f7c705609786115b7325",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:0ed0499ce6b34b68ad8c5bad51e019fdc4fd25be46a67e9fe88cde0b390c6666",
+            "ball:64bcd3d20c3394fef09bc01d3927a0b55163ae2a602a6b48c95dca0202d03e9f"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.9027211191132665
+        },
+        {
+          "frame": "da925afd487f6dbfcce1112c9bcaa7a1868857c9d84fb9534e62eb5e40ddd029",
+          "codes": [
+            "B",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:741378b917cc028dcfc50fe386499a49f40962a8a2235abb3dc008c43fddfea0",
+            "ball:075d480bbcc107deef1465428cd404e42d136af93c0900b6872adea603f31c2a"
+          ],
+          "raw": [
+            "B",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7635074248537421
+        },
+        {
+          "frame": "f9e1fb5f77983da1069ce70e81bbeb9e53d1a031f787e67141b657c250b614a7",
+          "codes": [
+            "C",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:4d30ce3235dbd7d0adc7d3694593b6557e726a913d31d8459f740d8c8eb616e1",
+            "ball:d28a6db19dcf45b28f602c0ad8cec3c585cf3f0372c9e028980338e8f8ad7939"
+          ],
+          "raw": [
+            "C",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.762662170920521
+        },
+        {
+          "frame": "caa4bf4084de0780e28fb61ca7120f1b93561ff91952523e4b549f46dff0f6c3",
+          "codes": [
+            "C",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:4d30ce3235dbd7d0adc7d3694593b6557e726a913d31d8459f740d8c8eb616e1",
+            "ball:e4eadfda516dbc9df3d2a8d0e5416cf88ead89926503d19d2897fdedb4feb9a3"
+          ],
+          "raw": [
+            "C",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9177320119924843
+        },
+        {
+          "frame": "e49d6a10bb2e77965411fbe47cb618266049e46bdd44bb14268c1928e2ce9390",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:4046ea116a8a643c2d079e9ed4243e07c761a27508824cd0481aa7e4e3088842",
+            "ball:2d52e74140a98537b9380ffcd37fddd4291a68d245f13d6b9a3a17612a083131"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.9035207498818636
+        },
+        {
+          "frame": "0217154193e73818e5130c98263f025b0bbd0a96924149241145a7d824bd47f6",
+          "codes": [
+            "C",
+            "Y",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:6ac2d7d5b128f0525e413a6935bb7ddf524f40617b66ff8483f1f8a4dc866168",
+            "ball:72be9a7516c8add4f5976f7c3cc249f15afc54505620cd5492385584aac2459a"
+          ],
+          "raw": [
+            "C",
+            "LEFT"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7666360926814377
+        },
+        {
+          "frame": "53ac214cd660d9d0d1815ae684e0d280bb10799bdc1a03b23d618e1279f1ca54",
+          "codes": [
+            "A",
+            "N",
+            "N",
+            "F"
+          ],
+          "requests": [
+            "place:b0cafba29b0dc792ff1e4090921de0d3ae46ac0de8d5e573cd2d65e35e181f6d",
+            "ball:ac66112d9c1bd5ad240342cbd0d2a4b095c79f2e5f398a201da0e26a3ba41ef4"
+          ],
+          "raw": [
+            "A",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            true
+          ],
+          "seconds": 0.9040765487588942
+        },
+        {
+          "frame": "72bbf494be9806329dc9db056d6dd4790707961c4867e280beea75d608a8e415",
+          "codes": [
+            "A",
+            "N",
+            "Y",
+            "S"
+          ],
+          "requests": [
+            "place:b0cafba29b0dc792ff1e4090921de0d3ae46ac0de8d5e573cd2d65e35e181f6d",
+            "ball:5a42e32497e64b2c40831539bbd5b1f2e81024d5ea583db32a8ff83650f8fee2"
+          ],
+          "raw": [
+            "A",
+            "RIGHT"
+          ],
+          "head_cache_hits": [
+            true,
+            false
+          ],
+          "seconds": 0.9227179610170424
+        },
+        {
+          "frame": "3035efa980b63229f297215b95e36f2624a190a40c1312b887e2601857268e44",
+          "codes": [
+            "H",
+            "N",
+            "N",
+            "X"
+          ],
+          "requests": [
+            "place:a7ae2b353f87af6a4703edb75468c3e8f061e8bb6373aae8a5ff222f7ab103e4",
+            "ball:59e75b77f16a065d485e226cc941322facf5f1e69b85390321989b4bb0884acc"
+          ],
+          "raw": [
+            "H",
+            "NONE"
+          ],
+          "head_cache_hits": [
+            false,
+            false
+          ],
+          "seconds": 1.7585941539146006
+        }
+      ],
+      "mean_head_seconds_excluding_cache": {
+        "place": 0.902183526661247,
+        "ball": 0.8726348061023689
+      },
+      "p50_latency": 1.7571415400598198
+    }
+  ]
+}

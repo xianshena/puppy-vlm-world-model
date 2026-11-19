@@ -1,0 +1,18 @@
+{
+  "device": "NVIDIA Jetson AGX Orin",
+  "model": "Qwen3-VL-8B-Instruct Q4_K_M",
+  "fixed_model_assets_sha256": [
+    "67d1659bfe71b89d50b45a4ad1a9e5b997e5bb16ce5da66a6a6167abd569e9e2",
+    "c6ba85508d82f42590e6eb77d5340369ab6fecf107a7561d809523d8aa5f3bfd"
+  ],
+  "recorded_timing": {
+    "device_wall_seconds": 8234.4,
+    "limit_seconds": 46800
+  },
+  "rollout_seed_ids": [
+    17,
+    29,
+    43
+  ],
+  "archived_formal_weights": 12
+}

@@ -1,0 +1,10019 @@
+{
+  "benchmark": {
+    "cases": 48,
+    "per_mode_mean_images_per_second": {
+      "1": 0.7112176227670515,
+      "2": 0.8172256600346408
+    },
+    "parsed_outputs_identical": true,
+    "used_lanes": 2,
+    "passed_visible_gate": true,
+    "correct_by_field": {
+      "location": 46,
+      "floor": 48,
+      "held": 48,
+      "feedback": 48
+    },
+    "positive_recall": [
+      1.0,
+      1.0
+    ],
+    "vision_recipe_sha": "f730371025bd5278d202b490bf411e8ae10959dae944541f4412129085966ea2",
+    "perception_backend_sha": "891c2f3e554f2920930a196c15ab6262bba2b198bb150355680cfc5b987e0ceb"
+  },
+  "weights": {
+    "action-17": {
+      "epochs": 20,
+      "updates": 3840,
+      "device": "CUDA",
+      "parameters": 21703,
+      "seed_hash": "5199e2a7ba4196f28b5dbe906cf767af74ac0b08c779b24b48d971b572dd92ab",
+      "order": [
+        "4807e5e2c32533255ea6d0e31999ae0e591b16a3c4e600c04c06e9eb9ac3f1bf",
+        "9357b3ae7fb694d75dae90665e73aeabfd45ff6897643394c225f4e9873ae1ee",
+        "b6f3a56373c8f0397d34babc5082f4bc557a97ae4de30d98dd781dcc7c3a0aed",
+        "dd902fa4cd581177236ec3a2e0345eec480529aae407e289bc81966f34cc4860",
+        "a921fff3ad177ea372e9138abff34a0617112d22a66236cd146b3586e4a8fc5e",
+        "69ebdea22586317ec0a53dfe45fbb3aa1531f0c8a1b3c3fec4f076e2ff581ca6",
+        "3f5c213777d9b9ed4f9d64ca9c3aa32689db124704c07f2bfa2a8e4bce47a8ca",
+        "4558c44e9102f41a9cc1081d06d3d6a4589e1533b4b0bf8657ff90709d7f654f",
+        "a531ad3755aafa91b75d60a02e5bfe69e6888a3e96b41122451e1d40d5f2e222",
+        "214ac678475faf59eaf4bd68ba9ea46afa6e29d112287f036cdc9def7d188684",
+        "1821d90e4d56329779e99f19759af05f95715baaa45a6cf78752fdedc3c38d2d",
+        "c930a3460f407ee21813518a7fdbec52c04acd2c643cb91245a1369afdca747b",
+        "cbabe363ada8291a12c7b609ca7015ad22c4da24bcbf8eb80b3c5d240267de14",
+        "0eba563ea3c70581ff8007f41b92aed3eccdeb01ac1015a70b95e73fe9e34b49",
+        "12d0060e7e64d5e2cd7f2536e0239562813d708f91ad3bb974c859a7e3b10fd9",
+        "5e262b5daee48c2c6916e2f522189aef1a9396069ae68359af7fb3ce5bb7571e",
+        "bf7ef4671a194553f06b8e363ece8c3e4c2ba9461fd3ca147795534371f269fb",
+        "8f556a09fbfd7e88e47b7ae050ca1b9185db7c5e3fb9ebe726b5d65a54086b85",
+        "da12091a98b03b46d818291179d3b2c73764aa43db7f9afb721595107f8f64b5",
+        "68b6c3a424574918144c3652252aa8a87093be2774273f058ffe82e0764894c7"
+      ],
+      "best_epoch": 18
+    },
+    "action-29": {
+      "epochs": 20,
+      "updates": 3840,
+      "device": "CUDA",
+      "parameters": 21703,
+      "seed_hash": "e5d37d29241a303b4f41de090fcad99c976211b42c97cb1699355f241ccfb4d1",
+      "order": [
+        "13aa5f5652fb134927a28f3742cb641f36ba521acadbc61b7d1672c7d6d32e77",
+        "78af070f11a0194a8cfc1f3a36f9ad4cb06f58a46de60f4d051dc5521277ff06",
+        "4e7dd8b9d223a622fd0140215df4e5d6da2a85d3f1f0cdc236b1c392144f46bd",
+        "fe83464ecf3146e9767a69db9d1b7f981dfdf10b8831f28b65bae30ff7256b97",
+        "63ffbf6fd628305c8eb60157f787e2c751ef9931423c3a58da1f59d5d0d74ab7",
+        "3b88b8320e2a1c749b3c6f2347a49aeee1e3a8cb99bdc78f9ff7b710081a071e",
+        "6b9da7704a7eb38efcae69f7417110cf0ff093f01fe2c988001a35d46060ff88",
+        "6dc82966f6f82d09e0e96ba63d61a6d0364922fa7f8668a4edb926c164d41d2c",
+        "38686c9c3741e88af43518e500a097d0e648187e87cf8971244283546383bdc0",
+        "fe3b57deb99852fabebe8a4ac469e38704ffad3b8faca2a832e87af081d8f60a",
+        "c2a44c75d613630110505b47d11b3ea77e8b819e9db27f694a7fe3a27d0dc04d",
+        "c7265b0f5245b3834ec49a992be13b67f93b6d3ce01659842e3277a6ed275354",
+        "4ffc6f6f2a5bcd3990628730bb4e4df9681402acb85c9da532f417287b2d63c7",
+        "d33094558f6d4d19023402cb1d2e2c34b6a431f6ef7dd508790a85395ef86216",
+        "b0f208338d5b179733dbde832ad0e2d617fb96da329294191209981d96c96f1c",
+        "e4a8802821f2e555ca4c47823193680ce447e2ff537ce4fe15efeb015c3804f2",
+        "34e4067bfe1c5a54cd4223a1e520f4da8ab9f96be2376aa2341960f2d5672ce0",
+        "88c4919b2e03eb30a46ca34a9d656e282bc349a1f8bb68d62b26a7e7f1526f6c",
+        "ee2f5d6381fc40643b96809e47d182045f73753317aeb9a263dbabc201816bfc",
+        "fbc27885e78c9a82f2348b599caf72d6b5a7370f85c6cdc6fd58ef9a91092b06"
+      ],
+      "best_epoch": 20
+    },
+    "action-43": {
+      "epochs": 20,
+      "updates": 3840,
+      "device": "CUDA",
+      "parameters": 21703,
+      "seed_hash": "32e23abfa85416ea9fc92054789497bf6794f810c2fb34b5377eb14f1f7da85e",
+      "order": [
+        "fc63e307c0d9e2a39a7104b2d0366bd2590fb51b9c1314ef824ba9842262de0c",
+        "2d1bf02a45b44254b100088b5e05d0371d5f3548fe1b3e7737a60e79db71d766",
+        "34d928c3373e51b3c6b9bb6127f9dae9d835e44552f702bad58c55e9b567070b",
+        "f6a5d997856a985b5562bed27543c8afa64ffd828cb255f16dd9bd359b819986",
+        "dd356a6d3082c6fed2d2cbc3a8ffa1eb6926ff72dfb5c40fc2aeefd23ff62f83",
+        "b28863028a9ccc88e3f28635cccccbbca0c6093cc4986abcc43f373669098346",
+        "6f94d4c885f93f5bf5af24006f2eba5d895e2554ccef33700238b421a71bbcd7",
+        "35598123c1ea7761950a5887952e51c313dc7350466b1bcf559f97da7e895cbe",
+        "6ad84e4836e877e89b1c7c2d5c119c31349468b10d31b5962e33334bf3366532",
+        "86b2389b1466c2e715b37f21234a24791f8d3c9fcc0c1f501c28b04a82201c29",
+        "3eac851c64bc77451c7555c9e801db84d13af46ca0c1a88a09ca64616551dfcf",
+        "53e58b89ac7cef20fd01482cdf3b0d6b1b34260309ce8297f55745e1a59758e0",
+        "32f65228978fab7d5a87663f0fcd0867902e92f85e7e03f95cb046d674527646",
+        "e395d402d70653872d33e078e1d257ff590ded900b71cda778e36d5e0725020b",
+        "6653d4412360b3411b10f9cd179d3b04e8d87f40109a0a23d80190a7b3ce1088",
+        "165ff53ac8f4c2ab260ec524bb1a5bd78d94dcaadbd6794bde3235a1df425841",
+        "16b49e9a4c6f4c5bc24c36c58c879134776f556765c1e9471a48ce43ac8f0f5f",
+        "725f39e7e51e4a241c198dfe9fc7554e6e06cfa6970c363afdba5c003550e105",
+        "ca023a1b9874b0fb050d99edaa53e80480b0a684d30936c604b55dc396b99be3",
+        "28468ea9ff0a42ea9610f079051b5f28637eba0a65f03ac2c4bddd293bb51187"
+      ],
+      "best_epoch": 20
+    },
+    "no-action-17": {
+      "epochs": 20,
+      "updates": 3840,
+      "device": "CUDA",
+      "parameters": 21703,
+      "seed_hash": "5199e2a7ba4196f28b5dbe906cf767af74ac0b08c779b24b48d971b572dd92ab",
+      "order": [
+        "4807e5e2c32533255ea6d0e31999ae0e591b16a3c4e600c04c06e9eb9ac3f1bf",
+        "9357b3ae7fb694d75dae90665e73aeabfd45ff6897643394c225f4e9873ae1ee",
+        "b6f3a56373c8f0397d34babc5082f4bc557a97ae4de30d98dd781dcc7c3a0aed",
+        "dd902fa4cd581177236ec3a2e0345eec480529aae407e289bc81966f34cc4860",
+        "a921fff3ad177ea372e9138abff34a0617112d22a66236cd146b3586e4a8fc5e",
+        "69ebdea22586317ec0a53dfe45fbb3aa1531f0c8a1b3c3fec4f076e2ff581ca6",
+        "3f5c213777d9b9ed4f9d64ca9c3aa32689db124704c07f2bfa2a8e4bce47a8ca",
+        "4558c44e9102f41a9cc1081d06d3d6a4589e1533b4b0bf8657ff90709d7f654f",
+        "a531ad3755aafa91b75d60a02e5bfe69e6888a3e96b41122451e1d40d5f2e222",
+        "214ac678475faf59eaf4bd68ba9ea46afa6e29d112287f036cdc9def7d188684",
+        "1821d90e4d56329779e99f19759af05f95715baaa45a6cf78752fdedc3c38d2d",
+        "c930a3460f407ee21813518a7fdbec52c04acd2c643cb91245a1369afdca747b",
+        "cbabe363ada8291a12c7b609ca7015ad22c4da24bcbf8eb80b3c5d240267de14",
+        "0eba563ea3c70581ff8007f41b92aed3eccdeb01ac1015a70b95e73fe9e34b49",
+        "12d0060e7e64d5e2cd7f2536e0239562813d708f91ad3bb974c859a7e3b10fd9",
+        "5e262b5daee48c2c6916e2f522189aef1a9396069ae68359af7fb3ce5bb7571e",
+        "bf7ef4671a194553f06b8e363ece8c3e4c2ba9461fd3ca147795534371f269fb",
+        "8f556a09fbfd7e88e47b7ae050ca1b9185db7c5e3fb9ebe726b5d65a54086b85",
+        "da12091a98b03b46d818291179d3b2c73764aa43db7f9afb721595107f8f64b5",
+        "68b6c3a424574918144c3652252aa8a87093be2774273f058ffe82e0764894c7"
+      ],
+      "best_epoch": 19
+    },
+    "no-action-29": {
+      "epochs": 20,
+      "updates": 3840,
+      "device": "CUDA",
+      "parameters": 21703,
+      "seed_hash": "e5d37d29241a303b4f41de090fcad99c976211b42c97cb1699355f241ccfb4d1",
+      "order": [
+        "13aa5f5652fb134927a28f3742cb641f36ba521acadbc61b7d1672c7d6d32e77",
+        "78af070f11a0194a8cfc1f3a36f9ad4cb06f58a46de60f4d051dc5521277ff06",
+        "4e7dd8b9d223a622fd0140215df4e5d6da2a85d3f1f0cdc236b1c392144f46bd",
+        "fe83464ecf3146e9767a69db9d1b7f981dfdf10b8831f28b65bae30ff7256b97",
+        "63ffbf6fd628305c8eb60157f787e2c751ef9931423c3a58da1f59d5d0d74ab7",
+        "3b88b8320e2a1c749b3c6f2347a49aeee1e3a8cb99bdc78f9ff7b710081a071e",
+        "6b9da7704a7eb38efcae69f7417110cf0ff093f01fe2c988001a35d46060ff88",
+        "6dc82966f6f82d09e0e96ba63d61a6d0364922fa7f8668a4edb926c164d41d2c",
+        "38686c9c3741e88af43518e500a097d0e648187e87cf8971244283546383bdc0",
+        "fe3b57deb99852fabebe8a4ac469e38704ffad3b8faca2a832e87af081d8f60a",
+        "c2a44c75d613630110505b47d11b3ea77e8b819e9db27f694a7fe3a27d0dc04d",
+        "c7265b0f5245b3834ec49a992be13b67f93b6d3ce01659842e3277a6ed275354",
+        "4ffc6f6f2a5bcd3990628730bb4e4df9681402acb85c9da532f417287b2d63c7",
+        "d33094558f6d4d19023402cb1d2e2c34b6a431f6ef7dd508790a85395ef86216",
+        "b0f208338d5b179733dbde832ad0e2d617fb96da329294191209981d96c96f1c",
+        "e4a8802821f2e555ca4c47823193680ce447e2ff537ce4fe15efeb015c3804f2",
+        "34e4067bfe1c5a54cd4223a1e520f4da8ab9f96be2376aa2341960f2d5672ce0",
+        "88c4919b2e03eb30a46ca34a9d656e282bc349a1f8bb68d62b26a7e7f1526f6c",
+        "ee2f5d6381fc40643b96809e47d182045f73753317aeb9a263dbabc201816bfc",
+        "fbc27885e78c9a82f2348b599caf72d6b5a7370f85c6cdc6fd58ef9a91092b06"
+      ],
+      "best_epoch": 20
+    },
+    "no-action-43": {
+      "epochs": 20,
+      "updates": 3840,
+      "device": "CUDA",
+      "parameters": 21703,
+      "seed_hash": "32e23abfa85416ea9fc92054789497bf6794f810c2fb34b5377eb14f1f7da85e",
+      "order": [
+        "fc63e307c0d9e2a39a7104b2d0366bd2590fb51b9c1314ef824ba9842262de0c",
+        "2d1bf02a45b44254b100088b5e05d0371d5f3548fe1b3e7737a60e79db71d766",
+        "34d928c3373e51b3c6b9bb6127f9dae9d835e44552f702bad58c55e9b567070b",
+        "f6a5d997856a985b5562bed27543c8afa64ffd828cb255f16dd9bd359b819986",
+        "dd356a6d3082c6fed2d2cbc3a8ffa1eb6926ff72dfb5c40fc2aeefd23ff62f83",
+        "b28863028a9ccc88e3f28635cccccbbca0c6093cc4986abcc43f373669098346",
+        "6f94d4c885f93f5bf5af24006f2eba5d895e2554ccef33700238b421a71bbcd7",
+        "35598123c1ea7761950a5887952e51c313dc7350466b1bcf559f97da7e895cbe",
+        "6ad84e4836e877e89b1c7c2d5c119c31349468b10d31b5962e33334bf3366532",
+        "86b2389b1466c2e715b37f21234a24791f8d3c9fcc0c1f501c28b04a82201c29",
+        "3eac851c64bc77451c7555c9e801db84d13af46ca0c1a88a09ca64616551dfcf",
+        "53e58b89ac7cef20fd01482cdf3b0d6b1b34260309ce8297f55745e1a59758e0",
+        "32f65228978fab7d5a87663f0fcd0867902e92f85e7e03f95cb046d674527646",
+        "e395d402d70653872d33e078e1d257ff590ded900b71cda778e36d5e0725020b",
+        "6653d4412360b3411b10f9cd179d3b04e8d87f40109a0a23d80190a7b3ce1088",
+        "165ff53ac8f4c2ab260ec524bb1a5bd78d94dcaadbd6794bde3235a1df425841",
+        "16b49e9a4c6f4c5bc24c36c58c879134776f556765c1e9471a48ce43ac8f0f5f",
+        "725f39e7e51e4a241c198dfe9fc7554e6e06cfa6970c363afdba5c003550e105",
+        "ca023a1b9874b0fb050d99edaa53e80480b0a684d30936c604b55dc396b99be3",
+        "28468ea9ff0a42ea9610f079051b5f28637eba0a65f03ac2c4bddd293bb51187"
+      ],
+      "best_epoch": 19
+    }
+  },
+  "matched_initialization_and_order": {
+    "17": true,
+    "29": true,
+    "43": true
+  },
+  "perception": {
+    "unique_frames": 10295,
+    "audit_sample": 300,
+    "confusion": {
+      "place": {
+        "A -> A": 96,
+        "B -> B": 94,
+        "C -> C": 88,
+        "H -> H": 19,
+        "H -> C": 3
+      },
+      "ground": {
+        "N -> N": 192,
+        "Y -> Y": 103,
+        "N -> Y": 5
+      },
+      "held": {
+        "N -> N": 195,
+        "Y -> Y": 100,
+        "Y -> N": 5
+      },
+      "feedback": {
+        "F -> F": 116,
+        "X -> X": 115,
+        "S -> S": 69
+      }
+    },
+    "errors": [
+      {
+        "frame": "937d3e817d23b5339b2c197bb9a26eb04262a007e01d0388a0137d54060230ae",
+        "truth": [
+          "B",
+          "N",
+          "Y",
+          "S"
+        ],
+        "read": [
+          "B",
+          "Y",
+          "N",
+          "S"
+        ]
+      },
+      {
+        "frame": "c78e892cfd90986d900be9d424e58260844aafc3d43222691d913a4e8ba916e1",
+        "truth": [
+          "H",
+          "N",
+          "N",
+          "X"
+        ],
+        "read": [
+          "C",
+          "N",
+          "N",
+          "X"
+        ]
+      },
+      {
+        "frame": "014ab6768c1edd25b5ce9a35eb54c9d3e1bd95e9bbea05fef7a319fe67d75446",
+        "truth": [
+          "B",
+          "N",
+          "Y",
+          "X"
+        ],
+        "read": [
+          "B",
+          "Y",
+          "N",
+          "X"
+        ]
+      },
+      {
+        "frame": "65825f796b799ff4e7c7d43355025ede28374ce383031cf2da6a3bd1984f0652",
+        "truth": [
+          "H",
+          "N",
+          "N",
+          "X"
+        ],
+        "read": [
+          "C",
+          "N",
+          "N",
+          "X"
+        ]
+      },
+      {
+        "frame": "322873bcb80c0bbdca30c48fa38290b4097f353521758afaadaba13cd3c643ee",
+        "truth": [
+          "C",
+          "N",
+          "Y",
+          "S"
+        ],
+        "read": [
+          "C",
+          "Y",
+          "N",
+          "S"
+        ]
+      },
+      {
+        "frame": "51e430af18a3c25a639d31469e14dcc16ab03d7b05a3d959d489a6e9bb1fa0c2",
+        "truth": [
+          "H",
+          "N",
+          "N",
+          "X"
+        ],
+        "read": [
+          "C",
+          "N",
+          "N",
+          "X"
+        ]
+      },
+      {
+        "frame": "14f10d03b66cfba3db162265221bdd9703774715964e55962255f47672220cb7",
+        "truth": [
+          "B",
+          "N",
+          "Y",
+          "X"
+        ],
+        "read": [
+          "B",
+          "Y",
+          "N",
+          "X"
+        ]
+      },
+      {
+        "frame": "e9571baa574eefd63cc23116cd9e3b3a000dc228619246f60d5aa9f1664d8c7f",
+        "truth": [
+          "B",
+          "N",
+          "Y",
+          "F"
+        ],
+        "read": [
+          "B",
+          "Y",
+          "N",
+          "F"
+        ]
+      }
+    ]
+  },
+  "interface": {
+    "old": {
+      "n": 72,
+      "legal": 23,
+      "correct": 23,
+      "correct_given_legal": 1.0
+    },
+    "new": {
+      "n": 72,
+      "legal": 72,
+      "correct": 64,
+      "correct_given_legal": 0.8888888888888888
+    },
+    "h_to_correct": 41
+  },
+  "predictions": {
+    "paired_action_effect": {
+      "layouts": 128,
+      "rate_difference": 0.9752604166666666,
+      "interval95": [
+        0.9557291666666666,
+        0.9921875
+      ],
+      "meets_threshold": true
+    },
+    "fork_pairs": [
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0.953125
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0.953125
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0.9453125
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "persistence"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "predicted"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "oracle_observation"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "persistence"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "predicted"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      }
+    ],
+    "fork_fields": [
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.9765625
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.0625
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.9765625
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.9765625
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5234375
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.078125
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.0625
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.97265625
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.078125
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 256,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 1
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "empty_place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "pick",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "oracle_observation",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "oracle_observation",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "persistence",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "persistence",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "predicted",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "predicted",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "shuffled",
+          "ground"
+        ],
+        "n": 64,
+        "mean": 0.5
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "place",
+          "shuffled",
+          "held"
+        ],
+        "n": 64,
+        "mean": 0.5
+      }
+    ],
+    "hidden": [
+      {
+        "group": [
+          "action-17",
+          0,
+          "A"
+        ],
+        "n": 512,
+        "brier": 0.24166172666272437,
+        "nll": 1.0750393401519003,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 492,
+            "prediction": 0.013014019466936588,
+            "actual": 0.25
+          },
+          {
+            "bin": 1,
+            "n": 20,
+            "prediction": 0.1796702742576599,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "B"
+        ],
+        "n": 512,
+        "brier": 0.47975801831252335,
+        "nll": 2.0810894052888096,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 492,
+            "prediction": 0.014335036277770996,
+            "actual": 0.5
+          },
+          {
+            "bin": 2,
+            "n": 20,
+            "prediction": 0.2182340919971466,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "C"
+        ],
+        "n": 512,
+        "brier": 0.24159890898748387,
+        "nll": 1.0441180355741688,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 512,
+            "prediction": 0.017762294119165745,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "A"
+        ],
+        "n": 128,
+        "brier": 0.21965481529129965,
+        "nll": 0.8526494450420253,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 68,
+            "prediction": 0.013014019466936588,
+            "actual": 0.25
+          },
+          {
+            "bin": 1,
+            "n": 60,
+            "prediction": 0.1796702742576599,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "B"
+        ],
+        "n": 128,
+        "brier": 0.4125211928898258,
+        "nll": 1.5458920290208844,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 68,
+            "prediction": 0.014335036277770996,
+            "actual": 0.5
+          },
+          {
+            "bin": 2,
+            "n": 60,
+            "prediction": 0.2182340919971466,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "C"
+        ],
+        "n": 128,
+        "brier": 0.2301210977758617,
+        "nll": 0.8861315189844108,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 128,
+            "prediction": 0.04621235842932947,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "A"
+        ],
+        "n": 512,
+        "brier": 0.2196615067786465,
+        "nll": 0.7183572387317826,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 492,
+            "prediction": 0.06847824156284332,
+            "actual": 0.25
+          },
+          {
+            "bin": 3,
+            "n": 20,
+            "prediction": 0.3629642128944397,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "B"
+        ],
+        "n": 512,
+        "brier": 0.44839794210817685,
+        "nll": 1.5209572019564572,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 492,
+            "prediction": 0.047117508947849274,
+            "actual": 0.5
+          },
+          {
+            "bin": 3,
+            "n": 20,
+            "prediction": 0.3170667588710785,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "C"
+        ],
+        "n": 512,
+        "brier": 0.21028657541418636,
+        "nll": 0.6563657437038856,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 492,
+            "prediction": 0.09828886389732361,
+            "actual": 0.25
+          },
+          {
+            "bin": 1,
+            "n": 20,
+            "prediction": 0.11909500509500504,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "A"
+        ],
+        "n": 128,
+        "brier": 0.21098644469646566,
+        "nll": 0.661659215971818,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 68,
+            "prediction": 0.06847824156284332,
+            "actual": 0.25
+          },
+          {
+            "bin": 3,
+            "n": 60,
+            "prediction": 0.3629642128944397,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "B"
+        ],
+        "n": 128,
+        "brier": 0.37464724758050644,
+        "nll": 1.1829278045716853,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 68,
+            "prediction": 0.047117508947849274,
+            "actual": 0.5
+          },
+          {
+            "bin": 3,
+            "n": 60,
+            "prediction": 0.3170667588710785,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "C"
+        ],
+        "n": 128,
+        "brier": 0.20775994797702352,
+        "nll": 0.6432626932092201,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 68,
+            "prediction": 0.09828886389732361,
+            "actual": 0.25
+          },
+          {
+            "bin": 1,
+            "n": 60,
+            "prediction": 0.11909500509500504,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "A"
+        ],
+        "n": 512,
+        "brier": 0.2341595038160507,
+        "nll": 0.8888017297940202,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 492,
+            "prediction": 0.029662424698472023,
+            "actual": 0.25
+          },
+          {
+            "bin": 2,
+            "n": 20,
+            "prediction": 0.23634059727191925,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "B"
+        ],
+        "n": 512,
+        "brier": 0.465907187570367,
+        "nll": 1.7635519207145252,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 492,
+            "prediction": 0.027941342443227768,
+            "actual": 0.5
+          },
+          {
+            "bin": 2,
+            "n": 20,
+            "prediction": 0.2869850993156433,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "C"
+        ],
+        "n": 512,
+        "brier": 0.2389546096750837,
+        "nll": 0.9776298438554808,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 492,
+            "prediction": 0.02010909467935562,
+            "actual": 0.25
+          },
+          {
+            "bin": 1,
+            "n": 20,
+            "prediction": 0.1191098541021347,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "A"
+        ],
+        "n": 128,
+        "brier": 0.21337892780528683,
+        "nll": 0.7430488878949661,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 68,
+            "prediction": 0.029662424698472023,
+            "actual": 0.25
+          },
+          {
+            "bin": 2,
+            "n": 60,
+            "prediction": 0.23634059727191925,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "B"
+        ],
+        "n": 128,
+        "brier": 0.38965311292708216,
+        "nll": 1.329694504520231,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 68,
+            "prediction": 0.027941342443227768,
+            "actual": 0.5
+          },
+          {
+            "bin": 2,
+            "n": 60,
+            "prediction": 0.2869850993156433,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "C"
+        ],
+        "n": 128,
+        "brier": 0.22360720426040437,
+        "nll": 0.8208638304225196,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 68,
+            "prediction": 0.02010909467935562,
+            "actual": 0.25
+          },
+          {
+            "bin": 1,
+            "n": 60,
+            "prediction": 0.1191098541021347,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "A"
+        ],
+        "n": 512,
+        "brier": 0.24195122492847962,
+        "nll": 1.0374073620261446,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 512,
+            "prediction": 0.016659127024468035,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "B"
+        ],
+        "n": 512,
+        "brier": 0.48362166141624563,
+        "nll": 2.058013576551153,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 512,
+            "prediction": 0.016659127024468035,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "C"
+        ],
+        "n": 512,
+        "brier": 0.24195122492847962,
+        "nll": 1.0374073620261446,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 512,
+            "prediction": 0.016659127024468035,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "A"
+        ],
+        "n": 128,
+        "brier": 0.24011632993496046,
+        "nll": 0.9918783472590951,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 128,
+            "prediction": 0.020664678188040853,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "B"
+        ],
+        "n": 128,
+        "brier": 0.47978399084094003,
+        "nll": 1.9628642279455613,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 128,
+            "prediction": 0.020664678188040853,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "C"
+        ],
+        "n": 128,
+        "brier": 0.24011632993496046,
+        "nll": 0.9918783472590951,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 128,
+            "prediction": 0.020664678188040853,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "A"
+        ],
+        "n": 512,
+        "brier": 0.2413347616990822,
+        "nll": 1.0213714283044708,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 512,
+            "prediction": 0.018008573752013035,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "B"
+        ],
+        "n": 512,
+        "brier": 0.48233047482307567,
+        "nll": 2.0245624161337687,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 512,
+            "prediction": 0.018008573752013035,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "C"
+        ],
+        "n": 512,
+        "brier": 0.2413347616990822,
+        "nll": 1.0213714283044708,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 512,
+            "prediction": 0.018008573752013035,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "A"
+        ],
+        "n": 128,
+        "brier": 0.2375396136591907,
+        "nll": 0.9457181840573065,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 128,
+            "prediction": 0.026523318083491176,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "B"
+        ],
+        "n": 128,
+        "brier": 0.4742779546174451,
+        "nll": 1.8645033206271835,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 128,
+            "prediction": 0.026523318083491176,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "C"
+        ],
+        "n": 128,
+        "brier": 0.2375396136591907,
+        "nll": 0.9457181840573065,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 128,
+            "prediction": 0.026523318083491176,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "A"
+        ],
+        "n": 512,
+        "brier": 0.22787051265755834,
+        "nll": 0.7917917040495509,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 512,
+            "prediction": 0.049096749135060236,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "B"
+        ],
+        "n": 512,
+        "brier": 0.4533221380900282,
+        "nll": 1.5332358538183606,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 512,
+            "prediction": 0.049096749135060236,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "C"
+        ],
+        "n": 512,
+        "brier": 0.22787051265755834,
+        "nll": 0.7917917040495509,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 512,
+            "prediction": 0.049096749135060236,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "A"
+        ],
+        "n": 128,
+        "brier": 0.23054131941127712,
+        "nll": 0.8252344101674585,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 128,
+            "prediction": 0.04267027194146067,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "B"
+        ],
+        "n": 128,
+        "brier": 0.45920618344054676,
+        "nll": 1.6068310459499342,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 128,
+            "prediction": 0.04267027194146067,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "C"
+        ],
+        "n": 128,
+        "brier": 0.23054131941127712,
+        "nll": 0.8252344101674585,
+        "bins": [
+          {
+            "bin": 0,
+            "n": 128,
+            "prediction": 0.04267027194146067,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "prior",
+          0,
+          "A"
+        ],
+        "n": 3072,
+        "brier": 0.1875,
+        "nll": 0.5623351446188083,
+        "bins": [
+          {
+            "bin": 2,
+            "n": 3072,
+            "prediction": 0.25,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "prior",
+          0,
+          "B"
+        ],
+        "n": 3072,
+        "brier": 0.25,
+        "nll": 0.6931471805599453,
+        "bins": [
+          {
+            "bin": 5,
+            "n": 3072,
+            "prediction": 0.5,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "prior",
+          0,
+          "C"
+        ],
+        "n": 3072,
+        "brier": 0.1875,
+        "nll": 0.5623351446188083,
+        "bins": [
+          {
+            "bin": 2,
+            "n": 3072,
+            "prediction": 0.25,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "prior",
+          1,
+          "A"
+        ],
+        "n": 768,
+        "brier": 0.1875,
+        "nll": 0.5623351446188083,
+        "bins": [
+          {
+            "bin": 2,
+            "n": 768,
+            "prediction": 0.25,
+            "actual": 0.25
+          }
+        ]
+      },
+      {
+        "group": [
+          "prior",
+          1,
+          "B"
+        ],
+        "n": 768,
+        "brier": 0.25,
+        "nll": 0.6931471805599453,
+        "bins": [
+          {
+            "bin": 5,
+            "n": 768,
+            "prediction": 0.5,
+            "actual": 0.5
+          }
+        ]
+      },
+      {
+        "group": [
+          "prior",
+          1,
+          "C"
+        ],
+        "n": 768,
+        "brier": 0.1875,
+        "nll": 0.5623351446188083,
+        "bins": [
+          {
+            "bin": 2,
+            "n": 768,
+            "prediction": 0.25,
+            "actual": 0.25
+          }
+        ]
+      }
+    ],
+    "hidden_probability_sum": [
+      {
+        "group": [
+          "action-17",
+          0
+        ],
+        "n": 128,
+        "mean": 0.05958616668067407
+      },
+      {
+        "group": [
+          "action-17",
+          1
+        ],
+        "n": 32,
+        "mean": 0.24725921597564593
+      },
+      {
+        "group": [
+          "action-29",
+          0
+        ],
+        "n": 128,
+        "mean": 0.23674560512881726
+      },
+      {
+        "group": [
+          "action-29",
+          1
+        ],
+        "n": 32,
+        "mean": 0.48821650305762887
+      },
+      {
+        "group": [
+          "action-43",
+          0
+        ],
+        "n": 128,
+        "mean": 0.09977234185498673
+      },
+      {
+        "group": [
+          "action-43",
+          1
+        ],
+        "n": 32,
+        "mean": 0.3424266222282313
+      },
+      {
+        "group": [
+          "no-action-17",
+          0
+        ],
+        "n": 128,
+        "mean": 0.049977381073404104
+      },
+      {
+        "group": [
+          "no-action-17",
+          1
+        ],
+        "n": 32,
+        "mean": 0.06199403456412256
+      },
+      {
+        "group": [
+          "no-action-29",
+          0
+        ],
+        "n": 128,
+        "mean": 0.054025721256039105
+      },
+      {
+        "group": [
+          "no-action-29",
+          1
+        ],
+        "n": 32,
+        "mean": 0.07956995425047353
+      },
+      {
+        "group": [
+          "no-action-43",
+          0
+        ],
+        "n": 128,
+        "mean": 0.1472902474051807
+      },
+      {
+        "group": [
+          "no-action-43",
+          1
+        ],
+        "n": 32,
+        "mean": 0.128010815824382
+      }
+    ],
+    "rollout": [
+      {
+        "group": [
+          "action-17",
+          0,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.9598795572916666
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.99951171875
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.9598795572916666
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.99951171875
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.9638671875
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.999267578125
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.9305419921875
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.9847412109375
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.966552734375
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.999267578125
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.928466796875
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.962890625
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.6853841145833334
+      },
+      {
+        "group": [
+          "action-17",
+          0,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.6919759114583334
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.9560546875
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.9996744791666666
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.9560546875
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.9996744791666666
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.95849609375
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 0.99951171875
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.93505859375
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 0.98291015625
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.9658203125
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.9404296875
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 0.9609375
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.7115885416666666
+      },
+      {
+        "group": [
+          "action-17",
+          1,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.693359375
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.96728515625
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.9996744791666666
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.96728515625
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.9996744791666666
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.9716796875
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.99951171875
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.9283447265625
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.985595703125
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.97412109375
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.9990234375
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.915283203125
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.964599609375
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.60546875
+      },
+      {
+        "group": [
+          "action-29",
+          0,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.672119140625
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.9632161458333334
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.9632161458333334
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.9658203125
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.93212890625
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 0.98388671875
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.9755859375
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.9365234375
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 0.9638671875
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.6256510416666666
+      },
+      {
+        "group": [
+          "action-29",
+          1,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.6741536458333334
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.9662272135416666
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.9996744791666666
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.9662272135416666
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.9996744791666666
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.9716796875
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.99951171875
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.9400634765625
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.9859619140625
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.973876953125
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.9990234375
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.938720703125
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.966552734375
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.6378580729166666
+      },
+      {
+        "group": [
+          "action-43",
+          0,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.6702473958333334
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.96484375
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.96484375
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.970703125
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.93798828125
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 0.98486328125
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.9755859375
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 1
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.94140625
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 0.9658203125
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.6647135416666666
+      },
+      {
+        "group": [
+          "action-43",
+          1,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.6666666666666666
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.8915201822916666
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.9611002604166666
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.8915201822916666
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.9611002604166666
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.9376220703125
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.97998046875
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.935302734375
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.91259765625
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.940673828125
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.9765625
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.875244140625
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.893310546875
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.8915201822916666
+      },
+      {
+        "group": [
+          "no-action-17",
+          0,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.9611002604166666
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.8841145833333334
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.9586588541666666
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.8841145833333334
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.9586588541666666
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.93603515625
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 0.97998046875
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.93115234375
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 0.91552734375
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.9423828125
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 0.9755859375
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.876953125
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 0.890625
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.8841145833333334
+      },
+      {
+        "group": [
+          "no-action-17",
+          1,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.9586588541666666
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.8916829427083334
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.961669921875
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.8916829427083334
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.961669921875
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.937255859375
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.98046875
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.936767578125
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.888671875
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.937744140625
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.97705078125
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.875244140625
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.896484375
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.8916829427083334
+      },
+      {
+        "group": [
+          "no-action-29",
+          0,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.961669921875
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.8828125
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.9596354166666666
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.8828125
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.9596354166666666
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.93359375
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 0.98095703125
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.93359375
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 0.8916015625
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.9384765625
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 0.9765625
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.875
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 0.8916015625
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.8828125
+      },
+      {
+        "group": [
+          "no-action-29",
+          1,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.9596354166666666
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.8902994791666666
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.9618326822916666
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.8902994791666666
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.9618326822916666
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.935791015625
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.980712890625
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 8192,
+        "mean": 0.9364013671875
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 8192,
+        "mean": 0.8809814453125
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.9365234375
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.9775390625
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 4096,
+        "mean": 0.885009765625
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 4096,
+        "mean": 0.89404296875
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 12288,
+        "mean": 0.8902994791666666
+      },
+      {
+        "group": [
+          "no-action-43",
+          0,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 12288,
+        "mean": 0.9618326822916666
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "1",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.8834635416666666
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "1",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.958984375
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "1",
+          "open_loop",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.8834635416666666
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "1",
+          "open_loop",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.958984375
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "3",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.9345703125
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "3",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 0.97998046875
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "3",
+          "open_loop",
+          "ground"
+        ],
+        "n": 2048,
+        "mean": 0.9326171875
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "3",
+          "open_loop",
+          "held"
+        ],
+        "n": 2048,
+        "mean": 0.88427734375
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "5",
+          "observed_refresh",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.9384765625
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "5",
+          "observed_refresh",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 0.9755859375
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "5",
+          "open_loop",
+          "ground"
+        ],
+        "n": 1024,
+        "mean": 0.88671875
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "5",
+          "open_loop",
+          "held"
+        ],
+        "n": 1024,
+        "mean": 0.8896484375
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "shuffled",
+          "shuffled",
+          "ground"
+        ],
+        "n": 3072,
+        "mean": 0.8834635416666666
+      },
+      {
+        "group": [
+          "no-action-43",
+          1,
+          "shuffled",
+          "shuffled",
+          "held"
+        ],
+        "n": 3072,
+        "mean": 0.958984375
+      }
+    ]
+  },
+  "closed": {
+    "success": [
+      {
+        "group": [
+          17,
+          0,
+          "fixed"
+        ],
+        "n": 128,
+        "mean": 0.96875
+      },
+      {
+        "group": [
+          17,
+          0,
+          "greedy"
+        ],
+        "n": 128,
+        "mean": 0.96875
+      },
+      {
+        "group": [
+          17,
+          0,
+          "planner"
+        ],
+        "n": 128,
+        "mean": 0.7109375
+      },
+      {
+        "group": [
+          17,
+          0,
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0.0078125
+      },
+      {
+        "group": [
+          17,
+          1,
+          "fixed"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          17,
+          1,
+          "greedy"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          17,
+          1,
+          "planner"
+        ],
+        "n": 32,
+        "mean": 0.71875
+      },
+      {
+        "group": [
+          17,
+          1,
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          29,
+          0,
+          "fixed"
+        ],
+        "n": 128,
+        "mean": 0.96875
+      },
+      {
+        "group": [
+          29,
+          0,
+          "greedy"
+        ],
+        "n": 128,
+        "mean": 0.96875
+      },
+      {
+        "group": [
+          29,
+          0,
+          "planner"
+        ],
+        "n": 128,
+        "mean": 0.828125
+      },
+      {
+        "group": [
+          29,
+          0,
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0.0078125
+      },
+      {
+        "group": [
+          29,
+          1,
+          "fixed"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          29,
+          1,
+          "greedy"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          29,
+          1,
+          "planner"
+        ],
+        "n": 32,
+        "mean": 0.90625
+      },
+      {
+        "group": [
+          29,
+          1,
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      },
+      {
+        "group": [
+          43,
+          0,
+          "fixed"
+        ],
+        "n": 128,
+        "mean": 0.96875
+      },
+      {
+        "group": [
+          43,
+          0,
+          "greedy"
+        ],
+        "n": 128,
+        "mean": 0.96875
+      },
+      {
+        "group": [
+          43,
+          0,
+          "planner"
+        ],
+        "n": 128,
+        "mean": 0.8125
+      },
+      {
+        "group": [
+          43,
+          0,
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 0.0078125
+      },
+      {
+        "group": [
+          43,
+          1,
+          "fixed"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          43,
+          1,
+          "greedy"
+        ],
+        "n": 32,
+        "mean": 1
+      },
+      {
+        "group": [
+          43,
+          1,
+          "planner"
+        ],
+        "n": 32,
+        "mean": 0.78125
+      },
+      {
+        "group": [
+          43,
+          1,
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 0
+      }
+    ],
+    "steps": [
+      {
+        "group": [
+          17,
+          0,
+          "fixed"
+        ],
+        "n": 128,
+        "mean": 5.1875
+      },
+      {
+        "group": [
+          17,
+          0,
+          "greedy"
+        ],
+        "n": 128,
+        "mean": 4.1484375
+      },
+      {
+        "group": [
+          17,
+          0,
+          "planner"
+        ],
+        "n": 128,
+        "mean": 6.6796875
+      },
+      {
+        "group": [
+          17,
+          0,
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 7.984375
+      },
+      {
+        "group": [
+          17,
+          1,
+          "fixed"
+        ],
+        "n": 32,
+        "mean": 5.0625
+      },
+      {
+        "group": [
+          17,
+          1,
+          "greedy"
+        ],
+        "n": 32,
+        "mean": 4.1875
+      },
+      {
+        "group": [
+          17,
+          1,
+          "planner"
+        ],
+        "n": 32,
+        "mean": 6.59375
+      },
+      {
+        "group": [
+          17,
+          1,
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 8
+      },
+      {
+        "group": [
+          29,
+          0,
+          "fixed"
+        ],
+        "n": 128,
+        "mean": 5.1875
+      },
+      {
+        "group": [
+          29,
+          0,
+          "greedy"
+        ],
+        "n": 128,
+        "mean": 4.1484375
+      },
+      {
+        "group": [
+          29,
+          0,
+          "planner"
+        ],
+        "n": 128,
+        "mean": 5.3046875
+      },
+      {
+        "group": [
+          29,
+          0,
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 7.984375
+      },
+      {
+        "group": [
+          29,
+          1,
+          "fixed"
+        ],
+        "n": 32,
+        "mean": 5.0625
+      },
+      {
+        "group": [
+          29,
+          1,
+          "greedy"
+        ],
+        "n": 32,
+        "mean": 4.1875
+      },
+      {
+        "group": [
+          29,
+          1,
+          "planner"
+        ],
+        "n": 32,
+        "mean": 5.3125
+      },
+      {
+        "group": [
+          29,
+          1,
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 8
+      },
+      {
+        "group": [
+          43,
+          0,
+          "fixed"
+        ],
+        "n": 128,
+        "mean": 5.1875
+      },
+      {
+        "group": [
+          43,
+          0,
+          "greedy"
+        ],
+        "n": 128,
+        "mean": 4.1484375
+      },
+      {
+        "group": [
+          43,
+          0,
+          "planner"
+        ],
+        "n": 128,
+        "mean": 6.3125
+      },
+      {
+        "group": [
+          43,
+          0,
+          "shuffled"
+        ],
+        "n": 128,
+        "mean": 7.9765625
+      },
+      {
+        "group": [
+          43,
+          1,
+          "fixed"
+        ],
+        "n": 32,
+        "mean": 5.0625
+      },
+      {
+        "group": [
+          43,
+          1,
+          "greedy"
+        ],
+        "n": 32,
+        "mean": 4.1875
+      },
+      {
+        "group": [
+          43,
+          1,
+          "planner"
+        ],
+        "n": 32,
+        "mean": 6.75
+      },
+      {
+        "group": [
+          43,
+          1,
+          "shuffled"
+        ],
+        "n": 32,
+        "mean": 8
+      }
+    ],
+    "decision_seconds": [
+      {
+        "group": [
+          17,
+          0,
+          "fixed"
+        ],
+        "n": 664,
+        "mean": 3.6979866977107813e-06
+      },
+      {
+        "group": [
+          17,
+          0,
+          "greedy"
+        ],
+        "n": 531,
+        "mean": 5.022706832252653e-06
+      },
+      {
+        "group": [
+          17,
+          0,
+          "planner"
+        ],
+        "n": 855,
+        "mean": 0.010455100967586912
+      },
+      {
+        "group": [
+          17,
+          0,
+          "shuffled"
+        ],
+        "n": 1022,
+        "mean": 0.010094227106629373
+      },
+      {
+        "group": [
+          17,
+          1,
+          "fixed"
+        ],
+        "n": 162,
+        "mean": 3.6413447908413263e-06
+      },
+      {
+        "group": [
+          17,
+          1,
+          "greedy"
+        ],
+        "n": 134,
+        "mean": 5.101600884279208e-06
+      },
+      {
+        "group": [
+          17,
+          1,
+          "planner"
+        ],
+        "n": 211,
+        "mean": 0.01016712901116265
+      },
+      {
+        "group": [
+          17,
+          1,
+          "shuffled"
+        ],
+        "n": 256,
+        "mean": 0.010273717540258076
+      },
+      {
+        "group": [
+          29,
+          0,
+          "fixed"
+        ],
+        "n": 664,
+        "mean": 3.2678117459437933e-06
+      },
+      {
+        "group": [
+          29,
+          0,
+          "greedy"
+        ],
+        "n": 531,
+        "mean": 4.870201445232004e-06
+      },
+      {
+        "group": [
+          29,
+          0,
+          "planner"
+        ],
+        "n": 679,
+        "mean": 0.010171658771636515
+      },
+      {
+        "group": [
+          29,
+          0,
+          "shuffled"
+        ],
+        "n": 1022,
+        "mean": 0.010073499170399895
+      },
+      {
+        "group": [
+          29,
+          1,
+          "fixed"
+        ],
+        "n": 162,
+        "mean": 3.1759077108200687e-06
+      },
+      {
+        "group": [
+          29,
+          1,
+          "greedy"
+        ],
+        "n": 134,
+        "mean": 4.797120953896153e-06
+      },
+      {
+        "group": [
+          29,
+          1,
+          "planner"
+        ],
+        "n": 170,
+        "mean": 0.010120749177739901
+      },
+      {
+        "group": [
+          29,
+          1,
+          "shuffled"
+        ],
+        "n": 256,
+        "mean": 0.01005675149463059
+      },
+      {
+        "group": [
+          43,
+          0,
+          "fixed"
+        ],
+        "n": 664,
+        "mean": 3.2255698152514823e-06
+      },
+      {
+        "group": [
+          43,
+          0,
+          "greedy"
+        ],
+        "n": 531,
+        "mean": 4.678828687373752e-06
+      },
+      {
+        "group": [
+          43,
+          0,
+          "planner"
+        ],
+        "n": 808,
+        "mean": 0.0102105577756411
+      },
+      {
+        "group": [
+          43,
+          0,
+          "shuffled"
+        ],
+        "n": 1021,
+        "mean": 0.010107151499468683
+      },
+      {
+        "group": [
+          43,
+          1,
+          "fixed"
+        ],
+        "n": 162,
+        "mean": 3.1464589460764403e-06
+      },
+      {
+        "group": [
+          43,
+          1,
+          "greedy"
+        ],
+        "n": 134,
+        "mean": 4.73783949195449e-06
+      },
+      {
+        "group": [
+          43,
+          1,
+          "planner"
+        ],
+        "n": 216,
+        "mean": 0.010155962982766883
+      },
+      {
+        "group": [
+          43,
+          1,
+          "shuffled"
+        ],
+        "n": 256,
+        "mean": 0.010118743974089739
+      }
+    ],
+    "paired_comparisons": {
+      "shuffled": {
+        "layouts": 128,
+        "rate_difference": 0.7760416666666666,
+        "interval95": [
+          0.7239583333333334,
+          0.8255208333333334
+        ]
+      },
+      "greedy": {
+        "layouts": 128,
+        "rate_difference": -0.18489583333333331,
+        "interval95": [
+          -0.23177083333333331,
+          -0.13802083333333331
+        ]
+      },
+      "fixed": {
+        "layouts": 128,
+        "rate_difference": -0.18489583333333331,
+        "interval95": [
+          -0.23177083333333331,
+          -0.13802083333333331
+        ]
+      }
+    }
+  }
+}

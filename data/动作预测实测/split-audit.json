@@ -1,0 +1,43 @@
+{
+  "complete_trajectory_overlaps": 0,
+  "duplicate_images": {
+    "train_validation": 153,
+    "train_test": 278,
+    "validation_test": 63
+  },
+  "transitions": {
+    "train": 24576,
+    "validation": 6144,
+    "test": 15360
+  },
+  "action_counts": {
+    "train": {
+      "A": 3389,
+      "pick": 6203,
+      "B": 3402,
+      "place": 4061,
+      "wait": 4118,
+      "C": 3403
+    },
+    "validation": {
+      "C": 899,
+      "pick": 1536,
+      "A": 841,
+      "place": 1037,
+      "wait": 1008,
+      "B": 823
+    },
+    "test": {
+      "B": 2115,
+      "pick": 3938,
+      "A": 2152,
+      "place": 2528,
+      "wait": 2554,
+      "C": 2073
+    }
+  },
+  "sealed_sha": {
+    "test.jsonl.gz": "8f75b764e1d99a9854cd41fe9ec256f69a70432c06ee052e8376753395d4695b",
+    "forks.jsonl.gz": "49aff42a56701ce3011e045fffef6c7ae1db9bfe7b286abd134d63801aeae599"
+  }
+}
